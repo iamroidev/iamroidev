@@ -1002,8 +1002,14 @@ body {
 }
 
 @media (max-width: 600px) {
+    html {
+        scroll-snap-type: none;
+    }
+
     .slide {
-        padding: 1.5rem 1.25rem 1.5rem 1.25rem;
+        padding: 1.5rem 1.25rem 2.5rem 1.25rem;
+        min-height: auto;
+        scroll-snap-align: none;
     }
 
     .progress-track {
