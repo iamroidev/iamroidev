@@ -6,7 +6,7 @@
 
 devroi is a custom-designed, responsive personal portfolio website showcasing software engineering projects, technical skills, and resume downloads. It serves as a visual showcase of my front-end capabilities.
 
----
+----
 
 ## Key Features
 
