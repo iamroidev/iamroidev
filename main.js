@@ -24,6 +24,16 @@ const themes = [
         title: 'rgba(220, 248, 240, 0.03)'
     },
     {
+        bg: 'radial-gradient(900px 520px at 80% 15%, rgba(138, 92, 246, 0.12), rgba(13, 13, 13, 0.96))',
+        glow: 'rgba(138, 92, 246, 0.2)',
+        title: 'rgba(235, 220, 250, 0.03)'
+    },
+    {
+        bg: 'radial-gradient(900px 520px at 20% 20%, rgba(244, 63, 94, 0.12), rgba(13, 13, 13, 0.96))',
+        glow: 'rgba(244, 63, 94, 0.2)',
+        title: 'rgba(250, 220, 230, 0.03)'
+    },
+    {
         bg: 'radial-gradient(900px 520px at 80% 20%, rgba(195, 147, 80, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(195, 147, 80, 0.2)',
         title: 'rgba(240, 228, 210, 0.03)'
@@ -52,6 +62,11 @@ const themes = [
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(130, 130, 130, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(130, 130, 130, 0.2)',
         title: 'rgba(230, 230, 230, 0.03)'
+    },
+    {
+        bg: 'radial-gradient(900px 520px at 80% 15%, rgba(90, 90, 90, 0.12), rgba(13, 13, 13, 0.98))',
+        glow: 'rgba(90, 90, 90, 0.2)',
+        title: 'rgba(220, 220, 220, 0.03)'
     }
 ];
 
