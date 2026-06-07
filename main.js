@@ -15,73 +15,79 @@ const themes = [
         title: 'rgba(247, 244, 240, 0.03)'
     },
     {
-        // 1: Scholar
+        // 1: AWS Labs
+        bg: 'radial-gradient(900px 520px at 80% 10%, rgba(255, 153, 0, 0.12), rgba(13, 13, 13, 0.96))',
+        glow: 'rgba(255, 153, 0, 0.2)',
+        title: 'rgba(255, 240, 220, 0.03)'
+    },
+    {
+        // 2: Scholar
         bg: 'radial-gradient(900px 520px at 80% 10%, rgba(72, 160, 255, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(72, 160, 255, 0.2)',
         title: 'rgba(230, 240, 255, 0.03)'
     },
     {
-        // 2: InsightFlow
+        // 3: InsightFlow
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(62, 195, 169, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(62, 195, 169, 0.2)',
         title: 'rgba(220, 248, 240, 0.03)'
     },
     {
-        // 3: Quads
+        // 4: Quads
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(138, 92, 246, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(138, 92, 246, 0.2)',
         title: 'rgba(235, 220, 250, 0.03)'
     },
     {
-        // 4: Apex Classroom
+        // 5: Apex Classroom
         bg: 'radial-gradient(900px 520px at 20% 20%, rgba(244, 63, 94, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(244, 63, 94, 0.2)',
         title: 'rgba(250, 220, 230, 0.03)'
     },
     {
-        // 5: RoiTube
+        // 6: RoiTube
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(249, 115, 22, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(249, 115, 22, 0.2)',
         title: 'rgba(255, 230, 220, 0.03)'
     },
     {
-        // 6: Sheet2SaaS
+        // 7: Sheet2SaaS
         bg: 'radial-gradient(900px 520px at 20% 20%, rgba(195, 147, 80, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(195, 147, 80, 0.2)',
         title: 'rgba(240, 228, 210, 0.03)'
     },
     {
-        // 7: StudyMate
+        // 8: StudyMate
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(143, 190, 92, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(143, 190, 92, 0.2)',
         title: 'rgba(230, 245, 212, 0.03)'
     },
     {
-        // 8: MINEBOT
+        // 9: MINEBOT
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(217, 118, 77, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(217, 118, 77, 0.2)',
         title: 'rgba(248, 224, 210, 0.03)'
     },
     {
-        // 9: MediTrend
+        // 10: MediTrend
         bg: 'radial-gradient(900px 520px at 80% 10%, rgba(95, 181, 212, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(95, 181, 212, 0.2)',
         title: 'rgba(220, 240, 248, 0.03)'
     },
     {
-        // 10: About
+        // 11: About
         bg: 'radial-gradient(900px 520px at 20% 10%, rgba(206, 176, 102, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(206, 176, 102, 0.2)',
         title: 'rgba(245, 236, 214, 0.03)'
     },
     {
-        // 11: Stack
+        // 12: Stack
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(130, 130, 130, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(130, 130, 130, 0.2)',
         title: 'rgba(230, 230, 230, 0.03)'
     },
     {
-        // 12: Contact
+        // 13: Contact
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(90, 90, 90, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(90, 90, 90, 0.2)',
         title: 'rgba(220, 220, 220, 0.03)'
