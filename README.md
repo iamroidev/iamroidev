@@ -1,32 +1,106 @@
 # devroi
 
-![HTML5](https://img.shields.io/badge/HTML5-333333?style=flat&logo=github) ![CSS3](https://img.shields.io/badge/CSS3-333333?style=flat&logo=github) ![JavaScript](https://img.shields.io/badge/JavaScript-333333?style=flat&logo=github) ![Developer Portfolio](https://img.shields.io/badge/Developer_Portfolio-333333?style=flat&logo=github) ![Responsive Design](https://img.shields.io/badge/Responsive_Design-333333?style=flat&logo=github)
+Personal portfolio and technical showcase for **Richard Kwaku Opoku** — cloud engineering, cybersecurity, and full-stack projects shipped to production.
+
+**Live:** [devroi.site](https://devroi.site) (AWS Amplify)
+
+---
 
 ## Overview
 
-devroi is a custom-designed, responsive personal portfolio website showcasing software engineering projects, technical skills, and resume downloads. It serves as a visual showcase of my front-end capabilities.
+devroi is a **static, zero-build** portfolio site. Each section is a full-viewport slide with its own visual theme, linking to production work including QUADS, Apex Classroom, StudyMate, RoiTube, and AniStream.
 
-----
+There is no bundler, framework, or backend — only HTML, CSS, and vanilla JavaScript deployed as static assets.
 
-## Key Features
+---
 
-- **Clean, responsive layout optimized for all modern screens**
-- **Hand-crafted layout styles and layout optimizations**
-- **Featured projects grid with active repository highlights**
-- **Interactive skills taxonomy showcase and direct resume downloads**
+## System Design
+
+```mermaid
+flowchart LR
+  User[Visitor]
+  CDN[AWS Amplify CDN]
+  HTML[index.html + assets]
+
+  User --> CDN --> HTML
+```
+
+| Concern | Approach |
+|---------|----------|
+| Hosting | AWS Amplify static hosting |
+| Navigation | Client-side slide controller (`main.js`) |
+| Assets | Self-contained `img/`, `style.css` |
+| CV tooling | Optional `cv-work/` Python scripts (maintainer only, not runtime) |
+
+---
+
+## Features
+
+- Full-page slide navigation with progress markers and table of contents
+- Per-slide gradient themes (Intro, AWS, Scholar, Quads, Apex, StudyMate, …)
+- Featured projects grid with links to live repositories
+- Skills taxonomy and downloadable resume/CV
+- Responsive layout, Open Graph meta tags, skip-link accessibility
 
 ---
 
 ## Technology Stack
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Developer Portfolio**
-- **Responsive Design**
+| Layer | Technology |
+|-------|------------|
+| Markup | HTML5 |
+| Styling | CSS3 (custom properties, gradients, responsive grid) |
+| Behavior | Vanilla JavaScript (ES6+) |
+| Deploy | AWS Amplify (`amplify.yml`) |
+| Maintainer tools | Python (`cv-work/pack.py`, `update_cv.py`) |
 
 ---
 
+## Getting Started
 
+```bash
+git clone https://github.com/iamroidev/devroi.git
+cd devroi
+```
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Open `index.html` in a browser, or serve locally:
+
+```bash
+npx serve .
+```
+
+No install step or environment variables required.
+
+---
+
+## Deployment
+
+Amplify builds from the repository root with no compile step:
+
+```yaml
+# amplify.yml — artifact is the repo root
+```
+
+Push to the connected branch; Amplify publishes static files to the CDN.
+
+---
+
+## Project Structure
+
+```
+devroi/
+├── index.html       # Single-page shell
+├── style.css        # Themes and layout
+├── main.js          # Slide navigation logic
+├── img/             # Favicon and project visuals
+├── amplify.yml      # Amplify build spec
+└── cv-work/         # CV docx maintenance scripts (optional)
+```
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+**Author:** [iamroidev](https://github.com/iamroidev)
