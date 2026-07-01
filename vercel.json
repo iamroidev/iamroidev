@@ -1,15 +1,23 @@
 {
   "headers": [
     {
-      "source": "/(.*\\.(jpg|jpeg|png|gif|webp|svg|ico))",
+      "source": "/img/portfolio-og.jpg",
       "headers": [
+        { "key": "Content-Type", "value": "image/jpeg" },
         { "key": "Accept-Ranges", "value": "none" },
         { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     },
     {
-      "source": "/(.*)",
+      "source": "/img/:path*",
       "headers": [
+        { "key": "Accept-Ranges", "value": "none" }
+      ]
+    },
+    {
+      "source": "/portfolio-og.jpg",
+      "headers": [
+        { "key": "Content-Type", "value": "image/jpeg" },
         { "key": "Accept-Ranges", "value": "none" }
       ]
     }
