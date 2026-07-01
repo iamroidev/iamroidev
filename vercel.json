@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/linkedin-og.jpg",
+      "source": "/og.jpg",
       "destination": "/api/og-image"
     }
   ]
