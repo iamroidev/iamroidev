@@ -704,8 +704,8 @@ body {
 }
 
 .about-intro p {
-    font-size: 1.1rem;
-    line-height: 1.9;
+    font-size: clamp(0.95rem, 1.6vw, 1.05rem);
+    line-height: 1.75;
     color: var(--fg);
     font-weight: 300;
 }
