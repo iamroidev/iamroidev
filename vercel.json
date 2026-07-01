@@ -1,10 +1,16 @@
 {
   "headers": [
     {
-      "source": "/portfolio-og.jpg",
+      "source": "/(.*\\.(jpg|jpeg|png|gif|webp|svg|ico))",
       "headers": [
-        { "key": "Content-Type", "value": "image/jpeg" },
+        { "key": "Accept-Ranges", "value": "none" },
         { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Accept-Ranges", "value": "none" }
       ]
     }
   ]
