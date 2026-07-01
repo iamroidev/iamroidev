@@ -6,6 +6,24 @@ const mobileMarkers = document.querySelectorAll('.mobile-progress span');
 const backToTop = document.getElementById('backToTop');
 const projectVisuals = document.querySelectorAll('.project-visual');
 const root = document.documentElement;
+const slideIndicatorTitle = document.getElementById('slideIndicatorTitle');
+const slideIndicatorCount = document.getElementById('slideIndicatorCount');
+const scrollHint = document.getElementById('scrollHint');
+const lightbox = document.getElementById('lightbox');
+const lightboxImage = document.getElementById('lightboxImage');
+const lightboxClose = document.getElementById('lightboxClose');
+
+const slideTitles = [
+    'Intro',
+    'AWS Labs',
+    'About',
+    'Stack',
+    'Quads',
+    'InsightFlow',
+    'Scholar',
+    'StudyMate',
+    'Contact'
+];
 
 const themes = [
     {
@@ -111,6 +129,15 @@ function syncNavigation(slideIndex) {
     });
 
     backToTop.classList.toggle('visible', slideIndex > 0);
+
+    if (slideIndicatorTitle && slideIndicatorCount) {
+        slideIndicatorTitle.textContent = slideTitles[slideIndex] || `Slide ${slideIndex + 1}`;
+        slideIndicatorCount.textContent = `${slideIndex + 1} / ${slides.length}`;
+    }
+
+    if (scrollHint) {
+        scrollHint.classList.toggle('is-hidden', slideIndex > 0);
+    }
 }
 
 function applyTheme(slideIndex) {
@@ -254,6 +281,8 @@ window.addEventListener('scroll', () => {
         
         if (closestSlide !== currentSlide) {
             currentSlide = closestSlide;
+            setActiveSlide(closestSlide);
+            syncNavigation(closestSlide);
             updateProgress();
         }
     }, 50);
@@ -261,3 +290,55 @@ window.addEventListener('scroll', () => {
 
 // Initialize on load
 document.addEventListener('DOMContentLoaded', init);
+
+// Lightbox for project screenshots
+document.querySelectorAll('.lightbox-trigger').forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+        const src = trigger.dataset.lightboxSrc;
+        const alt = trigger.dataset.lightboxAlt || '';
+        if (!src || !lightbox || !lightboxImage) {
+            return;
+        }
+
+        lightboxImage.src = src;
+        lightboxImage.alt = alt;
+        lightbox.hidden = false;
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        lightboxClose?.focus();
+    });
+});
+
+function closeLightbox() {
+    if (!lightbox || !lightboxImage) {
+        return;
+    }
+
+    lightbox.hidden = true;
+    lightbox.setAttribute('aria-hidden', 'true');
+    lightboxImage.removeAttribute('src');
+    document.body.style.overflow = '';
+}
+
+lightboxClose?.addEventListener('click', closeLightbox);
+
+lightbox?.addEventListener('click', (event) => {
+    if (event.target === lightbox) {
+        closeLightbox();
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && lightbox && !lightbox.hidden) {
+        closeLightbox();
+    }
+});
+
+// Hide scroll hint after first scroll
+let scrollHintDismissed = false;
+window.addEventListener('scroll', () => {
+    if (!scrollHintDismissed && scrollHint && window.scrollY > 40) {
+        scrollHintDismissed = true;
+        scrollHint.classList.add('is-hidden');
+    }
+}, { passive: true });
