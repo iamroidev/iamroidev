@@ -1,0 +1,7 @@
+{
+  "name": "devroi",
+  "private": true,
+  "dependencies": {
+    "@vercel/og": "^0.6.5"
+  }
+}
