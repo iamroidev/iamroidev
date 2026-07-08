@@ -2,7 +2,7 @@
 
 Personal portfolio and technical showcase for **Richard Kwaku Opoku** — cloud engineering, cybersecurity, and full-stack projects shipped to production.
 
-**Live:** [devroi.site](https://devroi.site) (AWS Amplify)
+**Live:** [devroi.site](https://iamroidev.vercel.app) 
 
 ---
 
@@ -99,8 +99,6 @@ devroi/
 
 ---
 
-## License
 
-MIT — see [LICENSE](LICENSE).
 
 **Author:** [iamroidev](https://github.com/iamroidev)
