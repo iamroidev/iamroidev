@@ -1,4 +1,4 @@
-# devroi
+# iamroidev
 
 Personal portfolio and technical showcase for **Richard Kwaku Opoku** — cloud engineering, cybersecurity, and full-stack projects shipped to production.
 
@@ -8,7 +8,7 @@ Personal portfolio and technical showcase for **Richard Kwaku Opoku** — cloud 
 
 ## Overview
 
-devroi is a **static, zero-build** portfolio site. Each section is a full-viewport slide with its own visual theme, linking to production work including QUADS, Apex Classroom, StudyMate, RoiTube, and AniStream.
+iamdevroi is my **static, zero-build** portfolio site. Each section is a full-viewport slide with its own visual theme, linking to production work including QUADS, Apex Classroom, StudyMate, RoiTube, and AniStream.
 
 There is no bundler, framework, or backend — only HTML, CSS, and vanilla JavaScript deployed as static assets.
 
