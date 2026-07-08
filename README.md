@@ -3,7 +3,7 @@
 
 Professional portfolio and technical showcase for **Richard Kwaku Opoku** — third-year Computer Science & Engineering student at UMaT, focusing on **Cloud Engineering** and **Cybersecurity**. 
 
-🔗 **Live Portfolio Site:** [iamroidev](https://iamroidev.vercel.app) (or backup at [iamroidev](https://main.dcgztfly74suw.amplifyapp.com/))
+🔗 **Live Portfolio Site:** [iamroidev.vercel.app](https://iamroidev.vercel.app) (Backup on AWS Amplify: [amplifyapp.com](https://main.dcgztfly74suw.amplifyapp.com/))
 
 ---
 
@@ -23,7 +23,7 @@ I keep my academic coursework honest by turning concepts into real, production-r
 *   **Google Cybersecurity Professional Certificate** (4/8 Completed: Foundations, Risk, Networks, Linux & SQL)
 *   **OMC Cybersecurity Trainee**
 *   **Machine Learning Specialization** (DeepLearning.AI / Stanford) — [Verify on Coursera](https://coursera.org/share/099b28416aa04c09512a4d1fb1e9cc81)
-*   **ISC2 Certified in Cybersecurity (CC)** — *
+*   **ISC2 Certified in Cybersecurity (CC)** — *(In Progress)*
 
 ---
 
@@ -71,7 +71,7 @@ I run and experiment with real-world infrastructure on my personal AWS account (
 
 ## 💼 About This Repository (`iamroidev/iamroidev`)
 
-This repository is both my **GitHub Profile README** and the source code for my **Personal Portfolio Website** ([devroi.site](https://devroi.site)).
+This repository is both my **GitHub Profile README** and the source code for my **Personal Portfolio Website** ([iamroidev.vercel.app](https://iamroidev.vercel.app)).
 
 ### Codebase Overview
 It is designed as a **static, zero-build** page. Each section is a full-viewport slide governed by custom CSS animations and client-side slide routing.
@@ -90,3 +90,19 @@ cd iamroidev
 npx serve .
 ```
 No build steps or environment variables are required!
+
+---
+
+### ☁️ Deployment
+
+Amplify builds from the repository root with no compile step:
+
+```yaml
+# amplify.yml — artifact is the repo root
+```
+
+Push to the connected branch; Amplify publishes static files to the CDN.
+
+---
+
+**Author:** [iamroidev](https://github.com/iamroidev)
