@@ -57,7 +57,7 @@ Organized and facilitated hardware-focused hackathons for student teams.
 | ISC2 Certified in Cybersecurity (CC) | ISC2 | In progress |
 | Machine Learning Specialization | Stanford & DeepLearning.AI | Completed |
 
-*AmaliTech cloud training is listed under Experience below.*
+*AmaliTech AWS re/Start (Jan–Apr 2026) is listed under Experience below.*
 
 ---
 
@@ -81,13 +81,15 @@ Documented on LinkedIn.
 - **Lab 2 — Storage security:** S3 block public access; least-privilege IAM scoped to `private/` prefix
 - **Lab 3 — Serverless API:** Lambda + API Gateway with dedicated IAM execution role
 
-### Cloud Practitioner Intern — AmaliTech (Online)
+### Cloud Practitioner Intern — AmaliTech (Online), AWS re/Start  
+**Jan 2026 – Apr 2026**
 
-Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases through AmaliTech's online cloud practitioner programme.
+Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases through AmaliTech's AWS re/Start programme.
 
-### Hackathon Participant — AmaliTech
+### Hackathon Participant — AmaliTech (AWS re/Start)  
+**Jan 2026 – Apr 2026**
 
-Joined AmaliTech hackathon; collaborated in a team to design and build solutions using AWS tools.
+Joined AmaliTech hackathon during AWS re/Start; collaborated in a team to design and build solutions using AWS tools.
 
 ### One Million Coders Member — Cybersecurity (Coursera)
 
