@@ -203,7 +203,7 @@ def build() -> Path:
         "AmaliTech (AWS re/Start)",
         right="Jan 2026 - Apr 2026",
         bullets=[
-            "Collaborated in a team to build a SaaS for automating hospital queues using AWS Lambda, Cognito, DynamoDB, and related services",
+            "Collaborated in a team to build a SaaS for automating hospital queues using AWS Lambda, API Gateway, Cognito, DynamoDB, Amplify, and related services",
         ],
     )
     pdf.entry(
