@@ -164,17 +164,13 @@ def build() -> Path:
     )
 
     pdf.section("Certifications & Security Training")
-    pdf.entry("AWS Certified Cloud Practitioner", "Amazon Web Services")
+    pdf.entry("AWS Certified Cloud Practitioner (CCP)", "Amazon Web Services (Credly)")
     pdf.entry(
         "Google Cybersecurity Professional Certificate",
         "Foundations, Risk, Networks, Linux & SQL (4 of 8 courses completed)",
     )
     pdf.entry("OMC Cybersecurity Trainee", "One Million Coders")
     pdf.entry("ISC2 Certified in Cybersecurity (CC)", "In progress")
-    pdf.entry(
-        "AWS re/Start Graduate",
-        "AmaliTech - cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, databases",
-    )
     pdf.entry(
         "Machine Learning Specialization",
         "Stanford University & DeepLearning.AI (Coursera)",
@@ -194,6 +190,13 @@ def build() -> Path:
     )
 
     pdf.section("Security & Cloud Experience")
+    pdf.entry(
+        "Cloud Practitioner Intern",
+        "AmaliTech (Online)",
+        bullets=[
+            "Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases",
+        ],
+    )
     pdf.entry(
         "AWS Hands-On Security Labs",
         "Personal AWS account (us-west-1) - documented on LinkedIn",

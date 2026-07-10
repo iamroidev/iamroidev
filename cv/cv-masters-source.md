@@ -51,12 +51,13 @@ Organized and facilitated hardware-focused hackathons for student teams.
 
 | Credential | Issuer | Status |
 |---|---|---|
-| AWS Certified Cloud Practitioner | Amazon Web Services | Completed |
+| AWS Certified Cloud Practitioner (CCP) | Amazon Web Services (Credly) | Completed |
 | Google Cybersecurity Professional Certificate (Foundations, Risk, Networks, Linux & SQL) | Google / Coursera | 4 of 8 courses |
 | OMC Cybersecurity Trainee | One Million Coders | Completed |
 | ISC2 Certified in Cybersecurity (CC) | ISC2 | In progress |
-| AWS re/Start Graduate | AmaliTech | Completed |
 | Machine Learning Specialization | Stanford & DeepLearning.AI | Completed |
+
+*AmaliTech cloud training is listed under Experience below.*
 
 ---
 
@@ -80,13 +81,13 @@ Documented on LinkedIn.
 - **Lab 2 — Storage security:** S3 block public access; least-privilege IAM scoped to `private/` prefix
 - **Lab 3 — Serverless API:** Lambda + API Gateway with dedicated IAM execution role
 
+### Cloud Practitioner Intern — AmaliTech (Online)
+
+Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases through AmaliTech's online cloud practitioner programme.
+
 ### Cybersecurity Trainee — OMC / One Million Coders
 
 Structured programme covering cybersecurity fundamentals, threat landscape, and practical security concepts.
-
-### AWS re/Start Graduate — AmaliTech
-
-Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, databases.
 
 ---
 
