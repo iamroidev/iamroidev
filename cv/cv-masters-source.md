@@ -30,7 +30,7 @@ University of Mines and Technology (UMaT), Tarkwa, Ghana
 ## Academic Projects
 
 **Cryptography Research & Implementation** — Information Security course, UMaT  
-Research-led coursework covering cryptographic concepts with practical implementation (no publication; course-based academic project).
+Research-led coursework on **symmetric and asymmetric encryption** with practical implementation (course-based academic project; not published).
 
 ---
 
@@ -118,7 +118,6 @@ Collaborative software solution design and presentation.
 
 ## Optional additions
 
-- [ ] Dean's List — only if formally awarded per semester/year (see note below)
 - [ ] Final-year project title (when confirmed)
 - [ ] CTF / security write-ups
 - [ ] IELTS/TOEFL scores

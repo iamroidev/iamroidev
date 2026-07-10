@@ -136,7 +136,7 @@ def build() -> Path:
         "Cryptography Research & Implementation",
         "Information Security course, UMaT",
         bullets=[
-            "Research-led coursework covering cryptographic concepts with practical implementation (course-based academic project)",
+            "Research-led coursework on symmetric and asymmetric encryption with practical implementation (course-based academic project)",
         ],
     )
 
