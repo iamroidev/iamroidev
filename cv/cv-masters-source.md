@@ -9,7 +9,7 @@ linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | iamroidev.vercel.a
 
 ## Academic Profile
 
-Year 3 Computer Science & Engineering student (UMaT, **First Class standing — 80.87 CWA**) applying to MSc programmes in **cybersecurity, cloud security, and network security**. Combines formal security training (One Million Coders member, Google Cybersecurity on Coursera, ISC2 CC in progress) with coursework in information security and cryptography, hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns.
+Year 3 Computer Science & Engineering student at UMaT (**80.87 CWA, First Class**), applying for MSc programmes in cybersecurity and cloud security. AWS security labs, AmaliTech AWS re/Start (Jan–Apr 2026), One Million Coders on Coursera, cryptography coursework, and ISC2 CC in progress. C# TA at UMaT; tutor at AAENICS.
 
 **Research interests:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF).
 

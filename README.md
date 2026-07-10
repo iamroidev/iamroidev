@@ -37,11 +37,9 @@ Security-first profile with a software engineering foundation. AWS security labs
 
 ---
 
-## 🚀 Shipped Work (software foundation)
+## Projects
 
-*   [Quads](https://quadsmarket.tech) — Campus marketplace, RBAC, escrow, AWS EC2
-*   [Scholar](https://schorla.vercel.app) — Scholarship platform, Supabase auth, document handling
-*   [InsightFlow](https://appinsightflow.vercel.app) · [StudyMate](https://studymatepro.vercel.app) — Production SaaS apps
+*   [Quads](https://quadsmarket.tech) · [Scholar](https://schorla.vercel.app) · [InsightFlow](https://appinsightflow.vercel.app) · [StudyMate](https://studymatepro.vercel.app)
 
 ---
 
