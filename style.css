@@ -1334,8 +1334,8 @@ a.external::after {
     }
 
     .brand-mark {
-        top: auto;
-        bottom: 5.5rem;
+        top: 1.5rem;
+        bottom: auto;
         right: 1rem;
     }
 
