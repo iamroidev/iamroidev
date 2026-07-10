@@ -11,7 +11,7 @@ linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | iamroidev.vercel.a
 
 Year 3 Computer Science & Engineering student at UMaT (**80.87 CWA, First Class**), applying for MSc programmes in cybersecurity and cloud security. AWS security labs, AmaliTech AWS re/Start (Jan–Apr 2026), One Million Coders on Coursera, cryptography coursework, and ISC2 CC in progress. C# TA at UMaT; tutor at AAENICS.
 
-**Research interests:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF).
+**Focus areas:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure cloud deployment, and risk management (NIST CSF).
 
 ---
 
@@ -29,8 +29,8 @@ University of Mines and Technology (UMaT), Tarkwa, Ghana
 
 ## Academic Projects
 
-**Cryptography Research & Implementation** — Information Security course, UMaT  
-Research-led coursework on **symmetric and asymmetric encryption** with practical implementation (course-based academic project; not published).
+**Cryptography — Information Security course, UMaT**  
+Coursework on **symmetric and asymmetric encryption** with practical implementation (not published).
 
 ---
 
@@ -89,7 +89,7 @@ Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases 
 ### Hackathon Participant — AmaliTech (AWS re/Start)  
 **Jan 2026 – Apr 2026**
 
-Joined AmaliTech hackathon during AWS re/Start; collaborated in a team to build a **SaaS for automating hospital queues** using AWS Lambda, API Gateway, Cognito, DynamoDB, Amplify, and related services.
+Joined AmaliTech hackathon during AWS re/Start; team built a **hospital queue system** with Lambda, API Gateway, Cognito, DynamoDB, and Amplify.
 
 ### One Million Coders Member — Cybersecurity (Coursera)
 
@@ -100,16 +100,13 @@ Member of One Million Coders studying cybersecurity on Coursera, including the G
 ## Security-Relevant Projects
 
 **Quads** — Campus marketplace | quadsmarket.tech  
-RBAC (buyer/seller/admin), Paystack escrow, API on AWS EC2 behind Cloudflare, MongoDB Atlas.
+Buyer/seller/admin roles, Paystack escrow, student verification. API on AWS EC2; Cloudflare; MongoDB Atlas.
 
-**Scholar** — AI scholarship platform | schorla.vercel.app  
-Document ingestion for CVs, transcripts, SOPs; Supabase auth and access control for sensitive data.
+**Scholar** — schorla.vercel.app  
+Parses CVs, transcripts, and SOPs; matches students to scholarships.
 
-**UMaTBOT (MINEBOT)** — Campus helpdesk | Telegram + Python  
-Automated FAQ and resource delivery with controlled bot access patterns.
-
-**InsightFlow · StudyMate · Sheet2SaaS** — Shipped SaaS products  
-Auth, database security, and production deployment (Vercel/Supabase/PostgreSQL).
+**InsightFlow · StudyMate · Sheet2SaaS**  
+Live apps on Vercel/Supabase/PostgreSQL.
 
 ---
 
