@@ -9,7 +9,7 @@ linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | iamroidev.vercel.a
 
 ## Academic Profile
 
-Year 3 Computer Science & Engineering student (UMaT, **First Class standing — 80.87 CWA**) applying to MSc programmes in **cybersecurity, cloud security, and network security**. Combines formal security training (OMC, Google Cybersecurity, ISC2 CC in progress) with coursework in information security and cryptography, hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns.
+Year 3 Computer Science & Engineering student (UMaT, **First Class standing — 80.87 CWA**) applying to MSc programmes in **cybersecurity, cloud security, and network security**. Combines formal security training (One Million Coders member, Google Cybersecurity on Coursera, ISC2 CC in progress) with coursework in information security and cryptography, hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns.
 
 **Research interests:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF).
 
@@ -53,7 +53,7 @@ Organized and facilitated hardware-focused hackathons for student teams.
 |---|---|---|
 | AWS Certified Cloud Practitioner (CCP) | Amazon Web Services (Credly) | Completed |
 | Google Cybersecurity Professional Certificate (Foundations, Risk, Networks, Linux & SQL) | Google / Coursera | 4 of 8 courses |
-| OMC Cybersecurity Trainee | One Million Coders | Completed |
+| One Million Coders Member — Cybersecurity (Coursera) | One Million Coders | Active |
 | ISC2 Certified in Cybersecurity (CC) | ISC2 | In progress |
 | Machine Learning Specialization | Stanford & DeepLearning.AI | Completed |
 
@@ -85,9 +85,13 @@ Documented on LinkedIn.
 
 Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases through AmaliTech's online cloud practitioner programme.
 
-### Cybersecurity Trainee — OMC / One Million Coders
+### Hackathon Participant — AmaliTech
 
-Structured programme covering cybersecurity fundamentals, threat landscape, and practical security concepts.
+Joined AmaliTech hackathon; collaborated in a team to design and build solutions using AWS tools.
+
+### One Million Coders Member — Cybersecurity (Coursera)
+
+Member of One Million Coders studying cybersecurity on Coursera, including the Google Cybersecurity Professional Certificate pathway (4 of 8 courses completed).
 
 ---
 
