@@ -111,7 +111,7 @@ def build() -> Path:
     pdf.body(
         "Year 3 Computer Science & Engineering student (UMaT, First Class standing - 80.87 CWA) applying to MSc "
         "programmes in cybersecurity, cloud security, and network security. Combines formal security training "
-        "(OMC, Google Cybersecurity, ISC2 CC in progress) with coursework in information security and cryptography, "
+        "(One Million Coders member, Google Cybersecurity on Coursera, ISC2 CC in progress) with coursework in information security and cryptography, "
         "hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns."
     )
     pdf.body(
@@ -169,7 +169,7 @@ def build() -> Path:
         "Google Cybersecurity Professional Certificate",
         "Foundations, Risk, Networks, Linux & SQL (4 of 8 courses completed)",
     )
-    pdf.entry("OMC Cybersecurity Trainee", "One Million Coders")
+    pdf.entry("One Million Coders Member - Cybersecurity (Coursera)", "One Million Coders")
     pdf.entry("ISC2 Certified in Cybersecurity (CC)", "In progress")
     pdf.entry(
         "Machine Learning Specialization",
@@ -198,19 +198,26 @@ def build() -> Path:
         ],
     )
     pdf.entry(
+        "Hackathon Participant",
+        "AmaliTech",
+        bullets=[
+            "Joined AmaliTech hackathon; collaborated in a team to design and build solutions using AWS tools",
+        ],
+    )
+    pdf.entry(
+        "One Million Coders Member - Cybersecurity",
+        "Coursera / One Million Coders",
+        bullets=[
+            "Studying cybersecurity on Coursera, including Google Cybersecurity Professional Certificate pathway (4 of 8 courses completed)",
+        ],
+    )
+    pdf.entry(
         "AWS Hands-On Security Labs",
         "Personal AWS account (us-west-1) - documented on LinkedIn",
         bullets=[
             "Lab 1 - Secure CI/CD: Amplify Hosting + GitHub; HTTPS portfolio deploy",
             "Lab 2 - Storage security: S3 block public access; least-privilege IAM scoped to private/ prefix",
             "Lab 3 - Serverless API: Lambda + API Gateway with dedicated IAM execution role",
-        ],
-    )
-    pdf.entry(
-        "Cybersecurity Trainee",
-        "OMC / One Million Coders",
-        bullets=[
-            "Structured programme covering cybersecurity fundamentals, threat landscape, and practical security concepts",
         ],
     )
 
