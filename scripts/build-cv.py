@@ -10,7 +10,6 @@ from fpdf import FPDF
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "cv" / "Richard_Kwaku_Opoku_CV.pdf"
 
-# Colours
 INK = (24, 24, 24)
 MUTED = (72, 72, 72)
 ACCENT = (120, 90, 40)
@@ -108,39 +107,64 @@ def build() -> Path:
     pdf.add_page()
     pdf.header_block()
 
-    # Academic Profile
     pdf.section("Academic Profile")
     pdf.body(
-        "Final-year Computer Science & Engineering student (UMaT) applying to MSc programmes "
-        "in cybersecurity, cloud security, and network security. Combines formal security training "
-        "(OMC, Google Cybersecurity, ISC2 CC in progress) with hands-on cloud security labs on AWS "
-        "and production systems where access control, network boundaries, and secure deployment are "
-        "first-class concerns. Strong software engineering foundation supports building and evaluating "
-        "secure, distributed systems."
+        "Year 3 Computer Science & Engineering student (UMaT, First Class standing - 80.87 CWA) applying to MSc "
+        "programmes in cybersecurity, cloud security, and network security. Combines formal security training "
+        "(OMC, Google Cybersecurity, ISC2 CC in progress) with coursework in information security and cryptography, "
+        "hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns."
     )
     pdf.body(
-        "Research interests: cloud security architecture, identity & access management, network "
-        "defence and monitoring, secure DevOps / cloud-native hardening, and applied risk management (NIST CSF)."
+        "Research interests: cloud security architecture, identity & access management, network defence and monitoring, "
+        "applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF)."
     )
 
-    # Education
     pdf.section("Education")
     pdf.entry(
         "Bachelor of Science in Computer Science and Engineering",
         "University of Mines and Technology (UMaT), Tarkwa, Ghana",
-        right="Expected 2027",
+        right="Year 3 - Expected 2027",
         bullets=[
-            "Relevant coursework: Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems",
-            "Security-aligned study: TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response, CIA triad, NIST CSF",
+            "CWA: 80.87 (First Class standing)",
+            "Relevant coursework: Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems, Information Security",
+            "Security-aligned study: Cryptography, TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response, CIA triad, NIST CSF",
         ],
     )
 
-    # Certifications
-    pdf.section("Certifications & Security Training")
+    pdf.section("Academic Projects")
     pdf.entry(
-        "AWS Certified Cloud Practitioner",
-        "Amazon Web Services",
+        "Cryptography Research & Implementation",
+        "Information Security course, UMaT",
+        bullets=[
+            "Research-led coursework covering cryptographic concepts with practical implementation (course-based academic project)",
+        ],
     )
+
+    pdf.section("Teaching & Leadership")
+    pdf.entry(
+        "Teaching Assistant - C# Programming",
+        "Dept. of Computer Science & Engineering, UMaT",
+        bullets=[
+            "Supported lecture delivery, lab sessions, and student coursework under faculty supervision",
+        ],
+    )
+    pdf.entry(
+        "Tutor",
+        "AAENICS Robotics Club, UMaT",
+        bullets=[
+            "Mentored members on robotics, embedded systems, and hands-on hardware projects",
+        ],
+    )
+    pdf.entry(
+        "Hardware Hackathon Organizer",
+        "AAENICS / UMaT",
+        bullets=[
+            "Organized and facilitated hardware-focused hackathons for student teams",
+        ],
+    )
+
+    pdf.section("Certifications & Security Training")
+    pdf.entry("AWS Certified Cloud Practitioner", "Amazon Web Services")
     pdf.entry(
         "Google Cybersecurity Professional Certificate",
         "Foundations, Risk, Networks, Linux & SQL (4 of 8 courses completed)",
@@ -156,29 +180,27 @@ def build() -> Path:
         "Stanford University & DeepLearning.AI (Coursera)",
     )
 
-    # Technical Skills
     pdf.section("Technical Skills")
     pdf.body(
         "Cybersecurity & networking: Linux, Bash, SQL; Wireshark, tcpdump; TCP/IP, DNS, DHCP, HTTP/S; "
-        "firewalls, VPNs, network hardening; CIA triad, NIST CSF, risk assessment, security ethics, incident response planning"
+        "firewalls, VPNs, network hardening; cryptography; CIA triad, NIST CSF, risk assessment, incident response planning"
     )
     pdf.body(
         "Cloud security: AWS (IAM, S3 policy hardening, Lambda execution roles, API Gateway, Amplify, EC2, VPC); "
         "least-privilege access; block public access; CI/CD pipeline security"
     )
     pdf.body(
-        "Software (supporting): Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git"
+        "Software (supporting): C#, Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git"
     )
 
-    # Security & Cloud Experience
     pdf.section("Security & Cloud Experience")
     pdf.entry(
         "AWS Hands-On Security Labs",
-        "Personal AWS account (us-west-1)",
+        "Personal AWS account (us-west-1) - documented on LinkedIn",
         bullets=[
-            "Lab 1 - Secure CI/CD: Amplify Hosting + GitHub; HTTPS portfolio deploy; automated pipeline on push to main",
-            "Lab 2 - Storage security: S3 with block public access; least-privilege IAM scoped to private/ prefix",
-            "Lab 3 - Serverless API: Lambda + API Gateway HTTP API with dedicated IAM execution role",
+            "Lab 1 - Secure CI/CD: Amplify Hosting + GitHub; HTTPS portfolio deploy",
+            "Lab 2 - Storage security: S3 block public access; least-privilege IAM scoped to private/ prefix",
+            "Lab 3 - Serverless API: Lambda + API Gateway with dedicated IAM execution role",
         ],
     )
     pdf.entry(
@@ -189,21 +211,19 @@ def build() -> Path:
         ],
     )
 
-    # Projects
     pdf.section("Security-Relevant Projects")
     pdf.entry(
         "Quads - Campus marketplace",
         "quadsmarket.tech",
         bullets=[
             "RBAC (buyer/seller/admin), Paystack escrow, API on AWS EC2 behind Cloudflare, MongoDB Atlas",
-            "Authentication boundaries and secure multi-tenant design in production",
         ],
     )
     pdf.entry(
         "Scholar - AI scholarship platform",
         "schorla.vercel.app",
         bullets=[
-            "Document ingestion for CVs, transcripts, SOPs; Supabase auth; schema design and access control for sensitive data",
+            "Document ingestion for CVs, transcripts, SOPs; Supabase auth and access control for sensitive data",
         ],
     )
     pdf.entry(
@@ -215,11 +235,10 @@ def build() -> Path:
         "InsightFlow, StudyMate, Sheet2SaaS",
         "Shipped SaaS products",
         bullets=[
-            "End-to-end ownership including auth, database security, and production deployment (Vercel/Supabase/PostgreSQL)",
+            "Auth, database security, and production deployment (Vercel/Supabase/PostgreSQL)",
         ],
     )
 
-    # Additional Experience
     pdf.section("Additional Experience")
     pdf.entry(
         "IoT Hackathon Developer",
