@@ -9,20 +9,41 @@ linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | iamroidev.vercel.a
 
 ## Academic Profile
 
-Final-year Computer Science & Engineering student (UMaT) applying to MSc programmes in **cybersecurity, cloud security, and network security**. Combines formal security training (OMC, Google Cybersecurity, ISC2 CC in progress) with hands-on cloud security labs on AWS and production systems where access control, network boundaries, and secure deployment are first-class concerns. Strong software engineering foundation supports building and evaluating secure, distributed systems—not only studying theory in isolation.
+Year 3 Computer Science & Engineering student (UMaT, **First Class standing — 80.87 CWA**) applying to MSc programmes in **cybersecurity, cloud security, and network security**. Combines formal security training (OMC, Google Cybersecurity, ISC2 CC in progress) with coursework in information security and cryptography, hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns.
 
-**Research interests:** cloud security architecture, identity & access management, network defence and monitoring, secure DevOps / cloud-native hardening, and applied risk management (NIST CSF).
+**Research interests:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF).
 
 ---
 
 ## Education
 
-**Bachelor of Science in Computer Science and Engineering** — Expected 2027  
-University of Mines and Technology (UMaT), Tarkwa, Ghana
+**Bachelor of Science in Computer Science and Engineering** — Year 3 · Expected 2027  
+University of Mines and Technology (UMaT), Tarkwa, Ghana  
+**CWA: 80.87 (First Class standing)**
 
-**Relevant coursework:** Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems
+**Relevant coursework:** Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems, **Information Security**
 
-**Security-aligned coursework & self-study:** TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response planning, CIA triad, NIST Cybersecurity Framework
+**Security-aligned study:** Cryptography, TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response, CIA triad, NIST CSF
+
+---
+
+## Academic Projects
+
+**Cryptography Research & Implementation** — Information Security course, UMaT  
+Research-led coursework covering cryptographic concepts with practical implementation (no publication; course-based academic project).
+
+---
+
+## Teaching & Leadership
+
+**Teaching Assistant** — C# Programming, Dept. of Computer Science & Engineering, UMaT  
+Supported lecture delivery, lab sessions, and student coursework under faculty supervision.
+
+**Tutor** — AAENICS Robotics Club, UMaT  
+Mentored members on robotics, embedded systems, and hands-on hardware projects.
+
+**Hardware Hackathon Organizer** — AAENICS / UMaT  
+Organized and facilitated hardware-focused hackathons for student teams.
 
 ---
 
@@ -41,11 +62,11 @@ University of Mines and Technology (UMaT), Tarkwa, Ghana
 
 ## Technical Skills
 
-**Cybersecurity & networking:** Linux, Bash, SQL · Wireshark, tcpdump · TCP/IP, DNS, DHCP, HTTP/S · firewalls, VPNs, network hardening · CIA triad, NIST CSF, risk assessment, security ethics, incident response planning
+**Cybersecurity & networking:** Linux, Bash, SQL · Wireshark, tcpdump · TCP/IP, DNS, DHCP, HTTP/S · firewalls, VPNs, network hardening · cryptography · CIA triad, NIST CSF, risk assessment, incident response planning
 
-**Cloud security:** AWS (IAM, S3 policy hardening, Lambda execution roles, API Gateway, Amplify, EC2, VPC concepts) · least-privilege access · block public access · CI/CD pipeline security
+**Cloud security:** AWS (IAM, S3 policy hardening, Lambda execution roles, API Gateway, Amplify, EC2, VPC) · least-privilege access · block public access · CI/CD pipeline security
 
-**Software (supporting):** Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git
+**Software (supporting):** C#, Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git
 
 ---
 
@@ -53,52 +74,51 @@ University of Mines and Technology (UMaT), Tarkwa, Ghana
 
 ### AWS Hands-On Security Labs — Personal AWS account (us-west-1)
 
-- **Lab 1 — Secure CI/CD:** Amplify Hosting with GitHub integration; HTTPS-only portfolio deploy; automated pipeline on push to main
-- **Lab 2 — Storage security:** S3 bucket with block public access; least-privilege IAM policy scoped to `private/` prefix
-- **Lab 3 — Serverless API security:** Lambda + API Gateway HTTP API with dedicated IAM execution role; JSON API endpoint
+Documented on LinkedIn.
+
+- **Lab 1 — Secure CI/CD:** Amplify Hosting + GitHub; HTTPS portfolio deploy
+- **Lab 2 — Storage security:** S3 block public access; least-privilege IAM scoped to `private/` prefix
+- **Lab 3 — Serverless API:** Lambda + API Gateway with dedicated IAM execution role
 
 ### Cybersecurity Trainee — OMC / One Million Coders
 
-- Completed structured programme covering cybersecurity fundamentals, threat landscape, and practical security concepts
+Structured programme covering cybersecurity fundamentals, threat landscape, and practical security concepts.
 
 ### AWS re/Start Graduate — AmaliTech
 
-- Cloud architecture, IAM, VPC, EC2, S3, Linux administration, Python, networking fundamentals, and databases
+Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, databases.
 
 ---
 
 ## Security-Relevant Projects
 
 **Quads** — Campus marketplace | quadsmarket.tech  
-Role-based access control (buyer/seller/admin), Paystack escrow for payment security, API on AWS EC2 behind Cloudflare, MongoDB Atlas. Demonstrates authentication boundaries and secure multi-tenant design in production.
+RBAC (buyer/seller/admin), Paystack escrow, API on AWS EC2 behind Cloudflare, MongoDB Atlas.
 
 **Scholar** — AI scholarship platform | schorla.vercel.app  
-Document ingestion pipeline with schema design, Supabase auth, and Stripe billing—applied data handling and access control for sensitive student documents (CVs, transcripts, SOPs).
+Document ingestion for CVs, transcripts, SOPs; Supabase auth and access control for sensitive data.
 
 **UMaTBOT (MINEBOT)** — Campus helpdesk | Telegram + Python  
 Automated FAQ and resource delivery with controlled bot access patterns.
 
 **InsightFlow · StudyMate · Sheet2SaaS** — Shipped SaaS products  
-End-to-end ownership including auth, database security, and production deployment (Vercel/Supabase/PostgreSQL).
+Auth, database security, and production deployment (Vercel/Supabase/PostgreSQL).
 
 ---
 
 ## Additional Experience
 
 **IoT Hackathon Developer** — Robotics Club (AAENICS), UMaT, 2026  
-ESP32 + MQTT embedded prototypes; team-based automation challenge with panel evaluation
+ESP32 + MQTT embedded prototypes; team-based automation challenge with panel evaluation.
 
 **Hackathon Participant** — Dept. of Computer Science & Engineering, UMaT, 2025  
-Collaborative software solution design and presentation
+Collaborative software solution design and presentation.
 
 ---
 
-## Items to add (if applicable)
+## Optional additions
 
-- [ ] GPA / class standing
-- [ ] Final-year project / capstone title and security angle
-- [ ] CTF competitions, vulnerability assessments, or security write-ups
-- [ ] Research assistant experience or publications
-- [ ] English proficiency (IELTS/TOEFL) scores
-- [ ] Academic awards or scholarships
-- [ ] Thesis supervisor / reference contacts
+- [ ] Dean's List — only if formally awarded per semester/year (see note below)
+- [ ] Final-year project title (when confirmed)
+- [ ] CTF / security write-ups
+- [ ] IELTS/TOEFL scores
