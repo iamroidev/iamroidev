@@ -18,6 +18,7 @@ const slideTitles = [
     'AWS Labs',
     'About',
     'Stack',
+    'Experience',
     'Quads',
     'InsightFlow',
     'Scholar',
@@ -51,31 +52,37 @@ const themes = [
         title: 'rgba(230, 230, 230, 0.03)'
     },
     {
-        // 4: Quads
+        // 4: Experience
+        bg: 'radial-gradient(900px 520px at 20% 10%, rgba(255, 153, 0, 0.1), rgba(13, 13, 13, 0.96))',
+        glow: 'rgba(255, 153, 0, 0.18)',
+        title: 'rgba(255, 240, 220, 0.03)'
+    },
+    {
+        // 5: Quads
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(138, 92, 246, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(138, 92, 246, 0.2)',
         title: 'rgba(235, 220, 250, 0.03)'
     },
     {
-        // 5: InsightFlow
+        // 6: InsightFlow
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(62, 195, 169, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(62, 195, 169, 0.2)',
         title: 'rgba(220, 248, 240, 0.03)'
     },
     {
-        // 6: Scholar
+        // 7: Scholar
         bg: 'radial-gradient(900px 520px at 80% 10%, rgba(72, 160, 255, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(72, 160, 255, 0.2)',
         title: 'rgba(230, 240, 255, 0.03)'
     },
     {
-        // 7: StudyMate
+        // 8: StudyMate
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(143, 190, 92, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(143, 190, 92, 0.2)',
         title: 'rgba(230, 245, 212, 0.03)'
     },
     {
-        // 8: Contact
+        // 9: Contact
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(90, 90, 90, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(90, 90, 90, 0.2)',
         title: 'rgba(220, 220, 220, 0.03)'
