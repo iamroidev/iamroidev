@@ -1,18 +1,18 @@
 # Hi there, I'm Richard Kwaku Opoku! 🚀
 *(Also known as **iamroidev**)*
 
-Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 3 Computer Science & Engineering @ UMaT (**First Class · 80.87 CWA**), applying to **MSc programmes** in cybersecurity, cloud security, and network security.
+Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 3 CSE @ UMaT (80.87 CWA, First Class), MSc applications.
 
 🔗 **Live Portfolio:** [iamroidev.vercel.app](https://iamroidev.vercel.app) · [Download CV](cv/Richard_Kwaku_Opoku_CV.pdf)
 
 ---
 
-## ⚡ About
+## About
 
-Security-first profile with a software engineering foundation. AWS security labs, AmaliTech AWS re/Start (Jan–Apr 2026), cryptography coursework, One Million Coders on Coursera, and production apps where RBAC, auth, and secure deployment matter.
+AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Coursera — plus apps I've built and still run.
 
-- 🎓 **Education:** B.Sc. CSE @ UMaT, Year 3 · Expected 2027 · **80.87 CWA (First Class)**
-- 🎯 **Goal:** MSc in cybersecurity / cloud security / network security
+- 🎓 **UMaT** · Year 3 · Expected 2027 · **80.87 CWA**
+- 🎯 MSc — cybersecurity & cloud security
 - ✉️ **Contact:** [richardkwakuopoku06@gmail.com](mailto:richardkwakuopoku06@gmail.com) | [LinkedIn](https://linkedin.com/in/richardkwakuopoku982) | [WhatsApp](https://wa.me/233508597910)
 
 ---
@@ -31,7 +31,7 @@ Security-first profile with a software engineering foundation. AWS security labs
 
 *   **AWS Labs** — Amplify CI/CD, S3 + IAM hardening, Lambda + API Gateway ([LinkedIn series](https://www.linkedin.com/in/richardkwakuopoku982/recent-activity/all/))
 *   **AmaliTech AWS re/Start** — Cloud Practitioner Intern, Jan–Apr 2026
-*   **Hackathon** — Hospital queue SaaS (Lambda, API Gateway, Cognito, DynamoDB, Amplify)
+*   **Hackathon** — Hospital queue system (Lambda, Cognito, DynamoDB, Amplify)
 *   **Academic** — Cryptography research & implementation (Information Security)
 *   **Teaching** — C# TA · AAENICS tutor · hardware hackathon organizer
 
