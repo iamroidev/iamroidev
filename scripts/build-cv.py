@@ -203,7 +203,7 @@ def build() -> Path:
         "AmaliTech (AWS re/Start)",
         right="Jan 2026 - Apr 2026",
         bullets=[
-            "Collaborated in a team to design and build solutions using AWS tools",
+            "Collaborated in a team to build a SaaS for automating hospital queues using AWS tools",
         ],
     )
     pdf.entry(

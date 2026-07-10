@@ -89,7 +89,7 @@ Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases 
 ### Hackathon Participant — AmaliTech (AWS re/Start)  
 **Jan 2026 – Apr 2026**
 
-Joined AmaliTech hackathon during AWS re/Start; collaborated in a team to design and build solutions using AWS tools.
+Joined AmaliTech hackathon during AWS re/Start; collaborated in a team to build a **SaaS for automating hospital queues** using AWS tools.
 
 ### One Million Coders Member — Cybersecurity (Coursera)
 
