@@ -191,17 +191,19 @@ def build() -> Path:
 
     pdf.section("Security & Cloud Experience")
     pdf.entry(
-        "Cloud Practitioner Intern",
+        "Cloud Practitioner Intern - AWS re/Start",
         "AmaliTech (Online)",
+        right="Jan 2026 - Apr 2026",
         bullets=[
             "Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases",
         ],
     )
     pdf.entry(
         "Hackathon Participant",
-        "AmaliTech",
+        "AmaliTech (AWS re/Start)",
+        right="Jan 2026 - Apr 2026",
         bullets=[
-            "Joined AmaliTech hackathon; collaborated in a team to design and build solutions using AWS tools",
+            "Collaborated in a team to design and build solutions using AWS tools",
         ],
     )
     pdf.entry(
