@@ -109,14 +109,13 @@ def build() -> Path:
 
     pdf.section("Academic Profile")
     pdf.body(
-        "Year 3 Computer Science & Engineering student (UMaT, First Class standing - 80.87 CWA) applying to MSc "
-        "programmes in cybersecurity, cloud security, and network security. Combines formal security training "
-        "(One Million Coders member, Google Cybersecurity on Coursera, ISC2 CC in progress) with coursework in information security and cryptography, "
-        "hands-on AWS security labs, and production systems where access control and secure deployment are first-class concerns."
+        "Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class) applying for MSc programmes in "
+        "cybersecurity and cloud security. AWS security labs, AmaliTech AWS re/Start (Jan-Apr 2026), One Million Coders on Coursera, "
+        "cryptography coursework, and ISC2 CC in progress. C# TA at UMaT; tutor at AAENICS."
     )
     pdf.body(
-        "Research interests: cloud security architecture, identity & access management, network defence and monitoring, "
-        "applied cryptography, secure DevOps / cloud-native hardening, and risk management (NIST CSF)."
+        "Focus areas: cloud security architecture, identity & access management, network defence and monitoring, "
+        "applied cryptography, secure cloud deployment, and risk management (NIST CSF)."
     )
 
     pdf.section("Education")
@@ -133,10 +132,10 @@ def build() -> Path:
 
     pdf.section("Academic Projects")
     pdf.entry(
-        "Cryptography Research & Implementation",
-        "Information Security course, UMaT",
+        "Cryptography - Information Security course, UMaT",
+        "",
         bullets=[
-            "Research-led coursework on symmetric and asymmetric encryption with practical implementation (course-based academic project)",
+            "Symmetric and asymmetric encryption with practical implementation",
         ],
     )
 
@@ -228,26 +227,26 @@ def build() -> Path:
         "Quads - Campus marketplace",
         "quadsmarket.tech",
         bullets=[
-            "RBAC (buyer/seller/admin), Paystack escrow, API on AWS EC2 behind Cloudflare, MongoDB Atlas",
+            "Buyer/seller/admin roles, Paystack escrow, student verification; API on AWS EC2, Cloudflare, MongoDB Atlas",
         ],
     )
     pdf.entry(
-        "Scholar - AI scholarship platform",
+        "Scholar",
         "schorla.vercel.app",
         bullets=[
-            "Document ingestion for CVs, transcripts, SOPs; Supabase auth and access control for sensitive data",
+            "Parses CVs, transcripts, and SOPs; matches students to scholarships",
         ],
     )
     pdf.entry(
         "UMaTBOT (MINEBOT) - Campus helpdesk",
         "Telegram Bot, Python",
-        bullets=["Automated FAQ and resource delivery with controlled bot access patterns"],
+        bullets=["Campus FAQs and resources via Telegram"],
     )
     pdf.entry(
         "InsightFlow, StudyMate, Sheet2SaaS",
-        "Shipped SaaS products",
+        "Live apps",
         bullets=[
-            "Auth, database security, and production deployment (Vercel/Supabase/PostgreSQL)",
+            "Vercel, Supabase, PostgreSQL",
         ],
     )
 
