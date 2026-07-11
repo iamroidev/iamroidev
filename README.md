@@ -3,7 +3,7 @@
 
 Professional portfolio and technical showcase for **Richard Kwaku Opoku** — third-year Computer Science & Engineering student at UMaT, focusing on **Cloud Engineering** and **Cybersecurity**. 
 
-🔗 **Live Portfolio Site:** [iamroidev.vercel.app](https://iamroidev.vercel.app) (Backup on AWS Amplify: [amplifyapp.com](https://main.dcgztfly74suw.amplifyapp.com/))
+🔗 **Live Portfolio Site:** [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Backup: [iamroidev.vercel.app](https://iamroidev.vercel.app) / [AWS Amplify](https://main.dcgztfly74suw.amplifyapp.com/))
 
 ---
 
@@ -71,7 +71,7 @@ I run and experiment with real-world infrastructure on my personal AWS account (
 
 ## 💼 About This Repository (`iamroidev/iamroidev`)
 
-This repository is both my **GitHub Profile README** and the source code for my **Personal Portfolio Website** ([iamroidev.vercel.app](https://iamroidev.vercel.app)).
+This repository is both my **GitHub Profile README** and the source code for my **Personal Portfolio Website** ([richardkwakuopoku.site](https://www.richardkwakuopoku.site/)).
 
 ### Codebase Overview
 It is designed as a **static, zero-build** page. Each section is a full-viewport slide governed by custom CSS animations and client-side slide routing.
