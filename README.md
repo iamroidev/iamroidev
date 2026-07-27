@@ -1,7 +1,7 @@
 # Hi there, I'm Richard Kwaku Opoku! 🚀
 *(Also known as **iamroidev**)*
 
-Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 3 CSE @ UMaT (80.87 CWA, First Class), MSc applications.
+Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 3 CE @ UMaT 
 
 🔗 **Live Portfolio:** [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Backup: [iamroidev.vercel.app](https://iamroidev.vercel.app) / [AWS Amplify](https://main.dcgztfly74suw.amplifyapp.com/)) · [Download CV](cv/Richard_Kwaku_Opoku_CV.pdf)
 
