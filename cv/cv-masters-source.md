@@ -1,17 +1,15 @@
 # Richard Kwaku Opoku
 
-**Cybersecurity · Cloud Security · Network Security** | MSc Applicant
+**Cloud Security · Cloud & Full-Stack Engineering**
 
 richardkwakuopoku06@gmail.com | +233 55 150 0736 | Tarkwa, Ghana  
-linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | iamroidev.vercel.app
+linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | richardkwakuopoku.site
 
 ---
 
-## Academic Profile
+## Summary
 
-Year 3 Computer Science & Engineering student at UMaT (**80.87 CWA, First Class**), applying for MSc programmes in cybersecurity and cloud security. AWS security labs, AmaliTech AWS re/Start (Jan–Apr 2026), One Million Coders on Coursera, cryptography coursework, and ISC2 CC in progress. C# TA at UMaT; tutor at AAENICS.
-
-**Focus areas:** cloud security architecture, identity & access management, network defence and monitoring, applied cryptography, secure cloud deployment, and risk management (NIST CSF).
+Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate with strong cloud software engineering foundations, hands-on security training, and experience building and deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify). 
 
 ---
 
@@ -19,109 +17,99 @@ Year 3 Computer Science & Engineering student at UMaT (**80.87 CWA, First Class*
 
 **Bachelor of Science in Computer Science and Engineering** — Year 3 · Expected 2027  
 University of Mines and Technology (UMaT), Tarkwa, Ghana  
-**CWA: 80.87 (First Class standing)**
+- **CWA:** 80.87 (First Class standing)
+- **Relevant coursework:** Data Structures & Algorithms, Software Engineering, Artificial Intelligence, Advanced Database Systems, Operating Systems, Embedded System Design, Web Programming, Object-Oriented Programming
 
-**Relevant coursework:** Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems, **Information Security**
-
-**Security-aligned study:** Cryptography, TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response, CIA triad, NIST CSF
-
----
-
-## Academic Projects
-
-**Cryptography — Information Security course, UMaT**  
-Coursework on **symmetric and asymmetric encryption** with practical implementation (not published).
+**High School Diploma / WASSCE**  
+Kumasi Academy, Kumasi, Ghana | 2019–2022
 
 ---
 
-## Teaching & Leadership
+## Experience
 
-**Teaching Assistant** — C# Programming, Dept. of Computer Science & Engineering, UMaT  
-Supported lecture delivery, lab sessions, and student coursework under faculty supervision.
-
-**Tutor** — AAENICS Robotics Club, UMaT  
-Mentored members on robotics, embedded systems, and hands-on hardware projects.
-
-**Hardware Hackathon Organizer** — AAENICS / UMaT  
-Organized and facilitated hardware-focused hackathons for student teams.
+**AWS re/Start Graduate** — AmaliTech  
+**Jan 2026 – Apr 2026**
+- Completed intensive training in cloud architecture, IAM policies, VPC configuration, EC2, S3 bucket security, Linux systems administration, Python scripting, networking, and relational/NoSQL databases.
 
 ---
 
-## Certifications & Security Training
+## Projects & Leadership
 
-| Credential | Issuer | Status |
-|---|---|---|
-| AWS Certified Cloud Practitioner (CCP) | Amazon Web Services (Credly) | Completed |
-| Google Cybersecurity Professional Certificate (Foundations, Risk, Networks, Linux & SQL) | Google / Coursera | 4 of 8 courses |
-| One Million Coders Member — Cybersecurity (Coursera) | One Million Coders | Active |
-| ISC2 Certified in Cybersecurity (CC) | ISC2 | In progress |
-| Machine Learning Specialization | Stanford & DeepLearning.AI | Completed |
+**VoteEQ** — real election platform used by ACSES | [voteeq.online](https://voteeq.online)  
+- Built and deployed a paid nominee voting and event ticketing platform used officially by the UMaT Association of Computer Science and Engineering Students.
+- Features Paystack hosted checkout, real-time leaderboard updates via WebSockets, libSQL database, nominee dashboards, and admin tooling. Frontend deployed on Vercel, API hosted on AWS EC2.
 
-*AmaliTech AWS re/Start (Jan–Apr 2026) is listed under Experience below.*
+**Scholar** — scholarship matching engine | [schorla.vercel.app](https://schorla.vercel.app)  
+- Implements NLP document parsing for CVs, transcripts, and SOPs; executes semantic matching algorithms to align profiles with verified funding opportunities.
+- Built with Next.js, LlamaCloud, Supabase, and Stripe billing.
+
+**InsightFlow** — AI reading assistant | [appinsightflow.vercel.app](https://appinsightflow.vercel.app)  
+- Converts books and documents into structured learning paths via RAG pipelines, generating guided text summaries and synthesized audio streams.
+- Built with React, Vite, TypeScript, and Supabase.
+
+**KaiRova** — streetwear e-commerce showcase | [kai-rova.vercel.app](https://kai-rova.vercel.app/)  
+- Built a premium clothing catalog and brand experience showcase for a friend's streetwear brand.
+- Implemented category catalog filters, interactive detail galleries, size selector drawers, and dynamic user query forms. Built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
+
+**AWS re/Start Graduate Hackathon** — AI medical queue application  
+- Collaborated in a team during the AmaliTech hackathon to design and build a hospital queue management system.
+- Implemented user authentication and access control using AWS Cognito, serverless endpoints via Lambda + API Gateway, DynamoDB database, and AWS Amplify frontend hosting.
+
+**AmaliTech Coding Club Organizer**  
+- Organized coding workshops, technical bootcamps, and peer-to-peer programming practice sessions.
+- Coordinated student mentoring, algorithmic tutorials, and collaborative hacking events.
+
+---
+
+## Workshops & Seminars
+
+**AmaliTech Workshop** — How to Actually Get Hired in Tech | 24 July 2026
+
+---
+
+## Certifications
+
+**AWS Certified Cloud Practitioner (CCP)** — Amazon Web Services | Verified via Credly  
+**Certified in Cybersecurity (CC)** — ISC2 | Verified  
+**Machine Learning Specialization** — DeepLearning.AI & Stanford University | Verified via Coursera  
+
+---
+
+## Additional Training / Credentials
+
+**Hardware Projects / IoT & Embedded Systems** — UMaT / Robotics Club (AAENICS)  
+- Completed hands-on training and built embedded prototypes using ESP32, MQTT protocols, Embedded C, and Raspberry Pi.
+
+**UMaT Cybersecurity Club** — Member | 2026 – Present  
+- Participated in hands-on technical workshops focused on network scanning and enumeration using Nmap, and database vulnerability exploitation via SQL injection.
 
 ---
 
 ## Technical Skills
 
-**Cybersecurity & networking:** Linux, Bash, SQL · Wireshark, tcpdump · TCP/IP, DNS, DHCP, HTTP/S · firewalls, VPNs, network hardening · cryptography · CIA triad, NIST CSF, risk assessment, incident response planning
-
-**Cloud security:** AWS (IAM, S3 policy hardening, Lambda execution roles, API Gateway, Amplify, EC2, VPC) · least-privilege access · block public access · CI/CD pipeline security
-
-**Software (supporting):** C#, Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git
-
----
-
-## Security & Cloud Experience
-
-### AWS Hands-On Security Labs — Personal AWS account (us-west-1)
-
-Documented on LinkedIn.
-
-- **Lab 1 — Secure CI/CD:** Amplify Hosting + GitHub; HTTPS portfolio deploy
-- **Lab 2 — Storage security:** S3 block public access; least-privilege IAM scoped to `private/` prefix
-- **Lab 3 — Serverless API:** Lambda + API Gateway with dedicated IAM execution role
-
-### Cloud Practitioner Intern — AmaliTech (Online), AWS re/Start  
-**Jan 2026 – Apr 2026**
-
-Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases through AmaliTech's AWS re/Start programme.
-
-### Hackathon Participant — AmaliTech (AWS re/Start)  
-**Jan 2026 – Apr 2026**
-
-Joined AmaliTech hackathon during AWS re/Start; team built a **hospital queue system** with Lambda, API Gateway, Cognito, DynamoDB, and Amplify.
-
-### One Million Coders Member — Cybersecurity (Coursera)
-
-Member of One Million Coders studying cybersecurity on Coursera, including the Google Cybersecurity Professional Certificate pathway (4 of 8 courses completed).
+- **Cloud & Infrastructure:** AWS (Amplify, S3, IAM, Lambda, API Gateway, EC2, VPC), GCP, Firebase, Vercel, Docker, Cloud Architecture
+- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, Vite, CSS, Three.js
+- **Backend & Databases:** Python, Node.js, Supabase, PostgreSQL, Prisma, REST APIs
+- **AI / Machine Learning:** Linear & Logistic Regression, Neural Networks, Deep Learning, K-Means Clustering, Recommender Systems, Anomaly Detection, Reinforcement Learning, NLP, RAG
+- **Cybersecurity:** Cloud Security, Networking, Information Security, Penetration Testing
+- **IoT / Hardware:** ESP32, MQTT, Embedded C, Raspberry Pi
+- **Design:** Canva
 
 ---
 
-## Security-Relevant Projects
+## Professional / Technical Interests
 
-**Quads** — Campus marketplace | quadsmarket.tech  
-Buyer/seller/admin roles, Paystack escrow, student verification. API on AWS EC2; Cloudflare; MongoDB Atlas.
-
-**Scholar** — schorla.vercel.app  
-Parses CVs, transcripts, and SOPs; matches students to scholarships.
-
-**InsightFlow · StudyMate · Sheet2SaaS**  
-Live apps on Vercel/Supabase/PostgreSQL.
+- Cloud Computing, Cloud Security, Cybersecurity, Artificial Intelligence, Machine Learning, Full-Stack Development, Software/Product Development, IoT & Embedded Systems, Entrepreneurship, UI/UX
 
 ---
 
-## Additional Experience
+## CV Interests
 
-**IoT Hackathon Developer** — Robotics Club (AAENICS), UMaT, 2026  
-ESP32 + MQTT embedded prototypes; team-based automation challenge with panel evaluation.
-
-**Hackathon Participant** — Dept. of Computer Science & Engineering, UMaT, 2025  
-Collaborative software solution design and presentation.
+- Building software products, Cloud technologies, Artificial intelligence, Cybersecurity, Entrepreneurship, Emerging technologies, IoT and embedded systems
 
 ---
 
-## Optional additions
+## Languages
 
-- [ ] Final-year project title (when confirmed)
-- [ ] CTF / security write-ups
-- [ ] IELTS/TOEFL scores
+- **English** — Fluent
+- **Twi** — Fluent

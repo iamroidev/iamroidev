@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Richard Kwaku Opoku's MSc-oriented CV PDF from structured content."""
+"""Build Richard Kwaku Opoku's structured CV PDF from structured content."""
 
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ class MastersCV(FPDF):
         self.cell(
             0,
             5,
-            "Cybersecurity  |  Cloud Security  |  Network Security  |  MSc Applicant",
+            "Cloud Security  |  Cloud & Full-Stack Engineering",
             ln=True,
         )
 
@@ -40,7 +40,7 @@ class MastersCV(FPDF):
         self.set_text_color(*MUTED)
         contact = (
             "richardkwakuopoku06@gmail.com  |  +233 55 150 0736  |  Tarkwa, Ghana\n"
-            "linkedin.com/in/richardkwakuopoku982  |  github.com/iamroidev  |  iamroidev.vercel.app"
+            "linkedin.com/in/richardkwakuopoku982  |  github.com/iamroidev  |  richardkwakuopoku.site"
         )
         self.multi_cell(0, 4.2, contact)
         self.ln(1.5)
@@ -107,161 +107,154 @@ def build() -> Path:
     pdf.add_page()
     pdf.header_block()
 
-    pdf.section("Academic Profile")
+    pdf.section("Summary")
     pdf.body(
-        "Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class) applying for MSc programmes in "
-        "cybersecurity and cloud security. AWS security labs, AmaliTech AWS re/Start (Jan-Apr 2026), One Million Coders on Coursera, "
-        "cryptography coursework, and ISC2 CC in progress. C# TA at UMaT; tutor at AAENICS."
-    )
-    pdf.body(
-        "Focus areas: cloud security architecture, identity & access management, network defence and monitoring, "
-        "applied cryptography, secure cloud deployment, and risk management (NIST CSF)."
+        "Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate "
+        "with strong cloud software engineering foundations, hands-on security training, and experience building and "
+        "deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify)."
     )
 
     pdf.section("Education")
     pdf.entry(
         "Bachelor of Science in Computer Science and Engineering",
         "University of Mines and Technology (UMaT), Tarkwa, Ghana",
-        right="Year 3 - Expected 2027",
+        right="Expected 2027",
         bullets=[
             "CWA: 80.87 (First Class standing)",
-            "Relevant coursework: Cloud Computing, Software Engineering, Database Systems, AI/ML Systems, IoT & Embedded Systems, Information Security",
-            "Security-aligned study: Cryptography, TCP/IP networking, Linux administration, SQL for security analytics, risk assessment, incident response, CIA triad, NIST CSF",
+            "Relevant coursework: Data Structures & Algorithms, Software Engineering, Artificial Intelligence, Advanced Database Systems, Operating Systems, Embedded System Design, Web Programming, Object-Oriented Programming",
+        ],
+    )
+    pdf.entry(
+        "High School Diploma / WASSCE",
+        "Kumasi Academy, Kumasi, Ghana",
+        right="2019 - 2022",
+    )
+
+    pdf.section("Experience")
+    pdf.entry(
+        "AWS re/Start Graduate",
+        "AmaliTech (Online)",
+        right="Jan 2026 - Apr 2026",
+        bullets=[
+            "Completed intensive training in cloud architecture, IAM policies, VPC configuration, EC2, S3 bucket security, Linux systems administration, Python scripting, networking, and relational/NoSQL databases.",
         ],
     )
 
-    pdf.section("Academic Projects")
+    pdf.section("Projects & Leadership")
     pdf.entry(
-        "Cryptography - Information Security course, UMaT",
+        "VoteEQ - real election platform used by ACSES",
+        "voteeq.online",
+        bullets=[
+            "Built and deployed a paid nominee voting and event ticketing platform used officially by the UMaT Association of Computer Science and Engineering Students.",
+            "Features Paystack hosted checkout, real-time leaderboard updates via WebSockets, libSQL database, nominee dashboards, and admin tooling. Frontend deployed on Vercel, API hosted on AWS EC2.",
+        ],
+    )
+    pdf.entry(
+        "Scholar - scholarship matching engine",
+        "schorla.vercel.app",
+        bullets=[
+            "Implements NLP document parsing for CVs, transcripts, and SOPs; executes semantic matching algorithms to align profiles with verified funding opportunities.",
+            "Built with Next.js, LlamaCloud, Supabase, and Stripe billing.",
+        ],
+    )
+    pdf.entry(
+        "InsightFlow - AI reading assistant",
+        "appinsightflow.vercel.app",
+        bullets=[
+            "Converts books and documents into structured learning paths via RAG pipelines, generating guided text summaries and synthesized audio streams.",
+            "Built with React, Vite, TypeScript, and Supabase.",
+        ],
+    )
+    pdf.entry(
+        "KaiRova - streetwear e-commerce showcase",
+        "kai-rova.vercel.app",
+        bullets=[
+            "Built a premium clothing catalog and brand experience showcase for a friend's streetwear brand.",
+            "Implemented category catalog filters, interactive detail galleries, size selector drawers, and dynamic user query forms. Built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.",
+        ],
+    )
+    pdf.entry(
+        "AWS re/Start Graduate Hackathon - AI medical queue application",
+        "Team Hackathon Project",
+        bullets=[
+            "Collaborated in a team during the AmaliTech hackathon to design and build a hospital queue management system.",
+            "Implemented user authentication and access control using AWS Cognito, serverless endpoints via Lambda + API Gateway, DynamoDB database, and AWS Amplify frontend hosting.",
+        ],
+    )
+    pdf.entry(
+        "AmaliTech Coding Club Organizer",
         "",
         bullets=[
-            "Symmetric and asymmetric encryption with practical implementation",
+            "Organized coding workshops, technical bootcamps, and peer-to-peer programming practice sessions.",
+            "Coordinated student mentoring, algorithmic tutorials, and collaborative hacking events.",
         ],
     )
 
-    pdf.section("Teaching & Leadership")
+    pdf.section("Workshops & Seminars")
     pdf.entry(
-        "Teaching Assistant - C# Programming",
-        "Dept. of Computer Science & Engineering, UMaT",
-        bullets=[
-            "Supported lecture delivery, lab sessions, and student coursework under faculty supervision",
-        ],
-    )
-    pdf.entry(
-        "Tutor",
-        "AAENICS Robotics Club, UMaT",
-        bullets=[
-            "Mentored members on robotics, embedded systems, and hands-on hardware projects",
-        ],
-    )
-    pdf.entry(
-        "Hardware Hackathon Organizer",
-        "AAENICS / UMaT",
-        bullets=[
-            "Organized and facilitated hardware-focused hackathons for student teams",
-        ],
+        "AmaliTech Workshop - How to Actually Get Hired in Tech",
+        "",
+        right="24 July 2026",
     )
 
-    pdf.section("Certifications & Security Training")
+    pdf.section("Certifications")
     pdf.entry("AWS Certified Cloud Practitioner (CCP)", "Amazon Web Services (Credly)")
+    pdf.entry("Certified in Cybersecurity (CC)", "ISC2")
+    pdf.entry("Machine Learning Specialization", "Stanford University & DeepLearning.AI (Coursera)")
+
+    pdf.section("Additional Training / Credentials")
     pdf.entry(
-        "Google Cybersecurity Professional Certificate",
-        "Foundations, Risk, Networks, Linux & SQL (4 of 8 courses completed)",
+        "Hardware Projects / IoT & Embedded Systems",
+        "UMaT / Robotics Club (AAENICS)",
+        bullets=[
+            "Completed hands-on training and built embedded prototypes using ESP32, MQTT protocols, Embedded C, and Raspberry Pi.",
+        ],
     )
-    pdf.entry("One Million Coders Member - Cybersecurity (Coursera)", "One Million Coders")
-    pdf.entry("ISC2 Certified in Cybersecurity (CC)", "In progress")
     pdf.entry(
-        "Machine Learning Specialization",
-        "Stanford University & DeepLearning.AI (Coursera)",
+        "UMaT Cybersecurity Club",
+        "UMaT",
+        right="2026 - Present",
+        bullets=[
+            "Participated in hands-on technical workshops focused on network scanning and enumeration using Nmap, and database vulnerability exploitation via SQL injection.",
+        ],
     )
 
     pdf.section("Technical Skills")
     pdf.body(
-        "Cybersecurity & networking: Linux, Bash, SQL; Wireshark, tcpdump; TCP/IP, DNS, DHCP, HTTP/S; "
-        "firewalls, VPNs, network hardening; cryptography; CIA triad, NIST CSF, risk assessment, incident response planning"
+        "Cloud & Infrastructure: AWS (Amplify, S3, IAM, Lambda, API Gateway, EC2, VPC), GCP, Firebase, Vercel, Docker, Cloud Architecture"
     )
     pdf.body(
-        "Cloud security: AWS (IAM, S3 policy hardening, Lambda execution roles, API Gateway, Amplify, EC2, VPC); "
-        "least-privilege access; block public access; CI/CD pipeline security"
+        "Frontend: React, Next.js, TypeScript, Tailwind CSS, Vite, CSS, Three.js"
     )
     pdf.body(
-        "Software (supporting): C#, Python, Node.js, TypeScript, React/Next.js, PostgreSQL, MongoDB, Docker, Git"
+        "Backend & Databases: Python, Node.js, Supabase, PostgreSQL, Prisma, REST APIs"
+    )
+    pdf.body(
+        "AI / Machine Learning: Linear & Logistic Regression, Neural Networks, Deep Learning, K-Means Clustering, Recommender Systems, Anomaly Detection, Reinforcement Learning, NLP, RAG"
+    )
+    pdf.body(
+        "Cybersecurity: Cloud Security, Networking, Information Security, Penetration Testing"
+    )
+    pdf.body(
+        "IoT / Hardware: ESP32, MQTT, Embedded C, Raspberry Pi"
+    )
+    pdf.body(
+        "Design: Canva"
     )
 
-    pdf.section("Security & Cloud Experience")
-    pdf.entry(
-        "Cloud Practitioner Intern - AWS re/Start",
-        "AmaliTech (Online)",
-        right="Jan 2026 - Apr 2026",
-        bullets=[
-            "Cloud architecture, IAM, VPC, EC2, S3, Linux, Python, networking, and databases",
-        ],
-    )
-    pdf.entry(
-        "Hackathon Participant",
-        "AmaliTech (AWS re/Start)",
-        right="Jan 2026 - Apr 2026",
-        bullets=[
-            "Team built a hospital queue system with Lambda, API Gateway, Cognito, DynamoDB, and Amplify",
-        ],
-    )
-    pdf.entry(
-        "One Million Coders Member - Cybersecurity",
-        "Coursera / One Million Coders",
-        bullets=[
-            "Studying cybersecurity on Coursera, including Google Cybersecurity Professional Certificate pathway (4 of 8 courses completed)",
-        ],
-    )
-    pdf.entry(
-        "AWS Hands-On Security Labs",
-        "Personal AWS account (us-west-1) - documented on LinkedIn",
-        bullets=[
-            "Lab 1 - Secure CI/CD: Amplify Hosting + GitHub; HTTPS portfolio deploy",
-            "Lab 2 - Storage security: S3 block public access; least-privilege IAM scoped to private/ prefix",
-            "Lab 3 - Serverless API: Lambda + API Gateway with dedicated IAM execution role",
-        ],
+    pdf.section("Professional / Technical Interests")
+    pdf.body(
+        "Cloud Computing, Cloud Security, Cybersecurity, Artificial Intelligence, Machine Learning, Full-Stack Development, Software/Product Development, IoT & Embedded Systems, Entrepreneurship, UI/UX"
     )
 
-    pdf.section("Security-Relevant Projects")
-    pdf.entry(
-        "Quads - Campus marketplace",
-        "quadsmarket.tech",
-        bullets=[
-            "Buyer/seller/admin roles, Paystack escrow, student verification; API on AWS EC2, Cloudflare, MongoDB Atlas",
-        ],
-    )
-    pdf.entry(
-        "Scholar",
-        "schorla.vercel.app",
-        bullets=[
-            "Parses CVs, transcripts, and SOPs; matches students to scholarships",
-        ],
-    )
-    pdf.entry(
-        "UMaTBOT (MINEBOT) - Campus helpdesk",
-        "Telegram Bot, Python",
-        bullets=["Campus FAQs and resources via Telegram"],
-    )
-    pdf.entry(
-        "InsightFlow, StudyMate, Sheet2SaaS",
-        "Live apps",
-        bullets=[
-            "Vercel, Supabase, PostgreSQL",
-        ],
+    pdf.section("CV Interests")
+    pdf.body(
+        "Building software products, Cloud technologies, Artificial intelligence, Cybersecurity, Entrepreneurship, Emerging technologies, IoT and embedded systems"
     )
 
-    pdf.section("Additional Experience")
-    pdf.entry(
-        "IoT Hackathon Developer",
-        "Robotics Club (AAENICS), UMaT - 2026",
-        bullets=[
-            "ESP32 + MQTT embedded prototypes; team-based automation challenge with panel evaluation",
-        ],
-    )
-    pdf.entry(
-        "Hackathon Participant",
-        "Dept. of Computer Science & Engineering, UMaT - 2025",
-        bullets=["Collaborative software solution design and presentation"],
+    pdf.section("Languages")
+    pdf.body(
+        "English - Fluent | Twi - Fluent"
     )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
