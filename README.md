@@ -11,8 +11,7 @@ Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 
 
 AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Coursera — plus apps I've built and still run.
 
-- 🎓 **UMaT** · Year 3 · Expected 2027 · **80.87 CWA**
-- 🎯 MSc — cybersecurity & cloud security
+- 🎓 **UMaT** · Year 3 · Expected 2027 
 - ✉️ **Contact:** [richardkwakuopoku06@gmail.com](mailto:richardkwakuopoku06@gmail.com) | [LinkedIn](https://linkedin.com/in/richardkwakuopoku982) | [WhatsApp](https://wa.me/233508597910)
 
 ---
@@ -33,7 +32,7 @@ AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Cou
 *   **AmaliTech AWS re/Start** — Cloud Practitioner Intern, Jan–Apr 2026
 *   **Hackathon** — Hospital queue system (Lambda, Cognito, DynamoDB, Amplify)
 *   **Academic** — Cryptography research & implementation (Information Security)
-*   **Teaching** — C# TA · AAENICS tutor · hardware hackathon organizer
+
 
 ---
 
