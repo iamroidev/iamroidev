@@ -770,54 +770,16 @@ a.external::after {
     border-color: var(--accent);
 }
 
-.case-study-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: 1.75rem;
-    max-width: 52rem;
-}
-
-.case-study {
+.detail-block-link {
     display: block;
-    padding: 1.15rem 1.25rem;
-    background: transparent;
-    border: 1px solid var(--border);
-    border-radius: 4px;
     text-decoration: none;
     color: inherit;
-    transition: border-color 0.25s ease, background 0.25s ease;
+    cursor: pointer;
 }
 
-.case-study:hover,
-.case-study:focus-visible {
-    border-color: var(--accent);
-    background: rgba(255, 255, 255, 0.02);
-    outline: none;
-}
-
-.case-study-label {
-    font-size: 0.75rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 0.55rem;
-}
-
-.case-study h3 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.35rem;
-    font-weight: 500;
-    margin-bottom: 0.45rem;
-    color: var(--fg);
-}
-
-.case-study p:last-child {
-    font-size: var(--text-body);
-    line-height: var(--leading-body);
-    color: var(--muted);
-    font-weight: 300;
-    margin: 0;
+.detail-block-link:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
 }
 
 .detail-label {
@@ -1076,10 +1038,6 @@ a.external::after {
 
     .detail-block {
         padding: 1rem;
-    }
-
-    .case-study-grid {
-        grid-template-columns: 1fr;
     }
 }
 
