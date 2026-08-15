@@ -103,7 +103,7 @@ code{background:#1e1e1e;color:var(--accent);padding:2px 7px;border-radius:4px;fo
 <div class="wrap">
   <p class="eyebrow">richardkwakuopoku.site</p>
   <h1>Email Signature</h1>
-  <p class="sub">Copy once, paste into Gmail. Takes 30 seconds.</p>
+  <p class="sub">Copy it, paste it into Gmail. Done.</p>
 
   <div class="preview-card">
     <p class="preview-label">Preview</p>
@@ -113,17 +113,17 @@ code{background:#1e1e1e;color:var(--accent);padding:2px 7px;border-radius:4px;fo
   <button class="copy-btn" id="btn" onclick="copySig()">Copy Signature</button>
 
   <div class="steps-card">
-    <h2>Setup in Gmail</h2>
+    <h2>Gmail setup</h2>
     <ol>
-      <li>Click <span>Copy Signature</span> above</li>
-      <li>Open Gmail &rarr; <span>Settings &#9881;</span> &rarr; <span>See all settings</span></li>
-      <li>Scroll to <span>Signature</span> &rarr; <span>+ Create new</span> &rarr; name it <code>Professional</code></li>
-      <li>Click inside the signature box &rarr; <code>Ctrl+V</code></li>
+      <li>Hit <span>Copy Signature</span> above</li>
+      <li>Gmail &rarr; <span>Settings &#9881;</span> &rarr; <span>See all settings</span></li>
+      <li>Scroll to <span>Signature</span> &rarr; <span>+ Create new</span> &rarr; call it <code>Professional</code></li>
+      <li>Click inside the box &rarr; <code>Ctrl+V</code></li>
       <li>Set as default for <span>New emails</span> and <span>On reply/forward</span></li>
       <li>Scroll down &rarr; <span>Save Changes</span></li>
     </ol>
     <div class="tip">
-      Photo loads from <code>richardkwakuopoku.site/img/roi.jpg</code>. Make sure <code>img/roi.jpg</code> is in your repo and deployed on Vercel.
+      Photo loads from <code>richardkwakuopoku.site/img/roi.jpg</code>. Make sure <code>img/roi.jpg</code> is pushed to the repo and deployed on Vercel.
     </div>
   </div>
 </div>

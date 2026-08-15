@@ -1,6 +1,6 @@
-# Profile Summary - Richard Kwaku Opoku (iamroidev)
+# Profile — Richard Kwaku Opoku (iamroidev)
 
-This document is a comprehensive compilation of all academic, professional, technical, and project details for **Richard Kwaku Opoku**, gathered from LinkedIn, the portfolio website, the GitHub profile, and repository sources.
+Everything about me in one place — academics, work, projects, skills. Pulled from LinkedIn, my portfolio, and GitHub.
 
 ---
 

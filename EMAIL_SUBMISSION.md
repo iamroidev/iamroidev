@@ -18,26 +18,18 @@
 ```
 Dear Dr. Boateng,
 
-Please find attached my CV for the CE3 Entrepreneurship assignment,
-submitted before the 2nd August 2026 deadline.
+I am writing to submit my Curriculum Vitae for the CE3 Entrepreneurship
+assignment. Please find it attached as a PDF.
 
-The file is named CE3_FCM4100819823_OPOKU-Richard-Kwaku_CV.pdf in
-line with the naming convention provided.
+I have worked through the template in full — all sections completed,
+instruction text removed, and the file named
+CE3_FCM4100819823_OPOKU-Richard-Kwaku_CV.pdf as required.
+
+Thank you for your time. I look forward to your feedback.
 
 Yours sincerely,
 ```
 *(your email signature follows automatically)*
-
----
-
-## Why this body works
-
-- Correct salutation ("Dear Dr. Boateng" — formal, not "Hi" or blank)
-- States the purpose in one sentence
-- References the attachment and file name explicitly (+marks)
-- References the deadline (shows awareness)
-- Professional close ("Yours sincerely")
-- Short — does not narrate the CV contents (brief penalises that)
 
 ---
 
