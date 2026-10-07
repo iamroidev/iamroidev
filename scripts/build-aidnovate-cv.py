@@ -133,20 +133,20 @@ def build() -> None:
     pdf.ln(1)
 
     pdf.entry_header(
+        "KaiRova - Premium Streetwear E-Commerce & Product Showcase",
+        "Stack: Next.js (App Router), React, TypeScript, Tailwind CSS, Dynamic State",
+        right="https://kai-rova.vercel.app"
+    )
+    pdf.bullet("Built a modern, responsive web application featuring dynamic catalog category filtering, interactive product lookbooks, and modular UI components.")
+    pdf.bullet("Architected modular frontend state management and mobile-optimized layouts with seamless client-side navigation.")
+    pdf.ln(1)
+
+    pdf.entry_header(
         "Scholar - Academic Management & Student Records Portal",
         "Stack: Next.js, TypeScript, React, REST APIs, Role-Based Access Control (RBAC)",
         right="https://schorla.vercel.app"
     )
-    pdf.bullet("Built a responsive academic portal featuring role-based authentication, student record indexing, and dynamic dashboard views.")
-    pdf.bullet("Implemented clean modular frontend architecture in TypeScript with robust API error handling and input validation.")
-    pdf.ln(1)
-
-    pdf.entry_header(
-        "InsightFlow - Real-Time Analytics & Data Dashboard",
-        "Stack: React.js, Node.js, REST APIs, Dynamic Client-Side Data Filtering",
-        right="https://appinsightflow.vercel.app"
-    )
-    pdf.bullet("Developed a high-performance web dashboard parsing dynamic metric streams with customizable client-side visualization filters.")
+    pdf.bullet("Built an administrative portal featuring role-based authentication, student record indexing, and responsive data querying.")
     pdf.ln(1)
 
     # --- Work & Leadership Experience ---

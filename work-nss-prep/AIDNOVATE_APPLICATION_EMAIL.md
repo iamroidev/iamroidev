@@ -30,7 +30,7 @@ Having reviewed the role requirements, here is how my practical background direc
 
 4. Proven Production Systems:
    - VoteEQ (https://voteeq.online): Architected and deployed a live voting and ticketing web platform handling 7,800+ real votes, automated Paystack payment webhooks, real-time WebSockets, and database persistence on AWS EC2.
-   - Scholar (https://schorla.vercel.app): Built an academic management portal with role-based auth, dynamic state handling, and structured data querying.
+   - KaiRova (https://kai-rova.vercel.app): Built a modern, responsive web application (Next.js, React, TypeScript, Tailwind CSS) featuring dynamic catalog filters, interactive product views, and fluid mobile UX.
 
 I am eager to contribute immediately to building, testing, and debugging Aidnovate’s web and mobile products. My 1-page CV is attached for your review, and you can explore my live builds and code here:
 
@@ -65,13 +65,12 @@ I saw your opening for a Full-Stack Developer Intern and wanted to submit my app
 I am a final-year Computer Science & Engineering student at UMaT specializing in React, Node.js/Express, PostgreSQL, and AWS cloud deployment. Rather than just building toy tutorials, I build and maintain live production systems:
 
 - VoteEQ (https://voteeq.online): Full-stack platform with real-time WebSockets, Paystack payment webhooks, and secure database transactions deployed on AWS EC2.
-- Scholar (https://schorla.vercel.app): Full-stack student record and auth portal with clean REST APIs.
+- KaiRova (https://kairovaclothing.com): Polished web product built with Next.js/React, TypeScript, and responsive mobile-first UI.
 
 I am comfortable building frontend UIs in React, writing scalable Node.js backend services, designing SQL/PostgreSQL databases, and troubleshooting production issues.
 
 My CV is attached. You can also view my GitHub at https://github.com/iamroidev and live portfolio at https://richardkwakuopoku.site.
 
-I'd love to connect for a quick interview.
 
 Warm regards,
 
