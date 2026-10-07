@@ -1,28 +1,27 @@
-# Hi there, I'm Richard Kwaku Opoku! 🚀
-*(Also known as **iamroidev**)*
+# Richard Kwaku Opoku
+**Cloud Security Engineer · Cybersecurity Specialist · Full-Stack Developer**
 
-Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 4 Computer Science & Engineering @ UMaT.
+Year 4 (Final Year) Computer Science & Engineering student at the University of Mines and Technology (UMaT), maintaining First Class Honours (80.87 CWA). AWS Certified Cloud Practitioner and ISC2 Certified in Cybersecurity, specializing in resilient cloud infrastructure, zero-trust design, and secure production systems.
 
-🔗 **Live Portfolio:** [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Backup: [iamroidev.vercel.app](https://iamroidev.vercel.app) / [AWS Amplify](https://main.dcgztfly74suw.amplifyapp.com/)) · [Download CV](cv/Richard_Kwaku_Opoku_CV.pdf)
-
----
-
-## About
-
-AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Coursera — plus apps I've built and still run.
-
-- 🎓 **UMaT** · Year 4 (Final Year) · Expected 2027 
-- ✉️ **Contact:** [richardkwakuopoku06@gmail.com](mailto:richardkwakuopoku06@gmail.com) | [LinkedIn](https://linkedin.com/in/richardkwakuopoku982) | [WhatsApp](https://wa.me/233508597910)
+🔗 **Live Portfolio:** [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Mirrors: [iamroidev.vercel.app](https://iamroidev.vercel.app) · [AWS Amplify](https://main.dcgztfly74suw.amplifyapp.com/)) · [Download CV (PDF)](cv/Richard_Kwaku_Opoku_CV.pdf)
 
 ---
 
-## 🎖️ Certifications
+## 👨‍💻 Background & Profile
 
-*   **AWS Certified Cloud Practitioner** — [Credly](https://www.credly.com/badges/0de7d0e0-e0b0-436c-84ac-8b52919ed987/public_url)
-*   **Google Cybersecurity Professional Certificate**  In Progress
-*   **One Million Coders Member** 
-*   **ISC2 Certified in Cybersecurity (CC)** CC
-*   **ML Specialization** — [Coursera](https://coursera.org/share/099b28416aa04c09512a4d1fb1e9cc81)
+- 🎓 **Education:** BSc Computer Science & Engineering, UMaT (First Class Honours, 80.87 CWA · Expected June 2027)
+- ☁️ **Cloud Foundation:** 600+ hours enterprise cloud training via AmaliTech AWS re/Start (VPC, IAM least privilege, S3 hardening, EC2, Lambda)
+- 🛡️ **Leadership:** Lead Organizer & Technical Mentor at AmaliTech Coding Club (mentoring 100+ students) · Active Member of UMaT Cybersecurity Club
+- ✉️ **Contact:** [richardkwakuopoku06@gmail.com](mailto:richardkwakuopoku06@gmail.com) · [LinkedIn](https://linkedin.com/in/richardkwakuopoku982) · [GitHub](https://github.com/iamroidev)
+
+---
+
+## 🎖️ Industry Certifications
+
+*   **AWS Certified Cloud Practitioner (CCP)** — [Credly Verified](https://www.credly.com/badges/0de7d0e0-e0b0-436c-84ac-8b52919ed987/public_url)
+*   **ISC2 Certified in Cybersecurity (CC)** — ISC2 Verified
+*   **Machine Learning Specialization** — Stanford University & DeepLearning.AI ([Coursera Verified](https://coursera.org/share/099b28416aa04c09512a4d1fb1e9cc81))
+*   **Google Cybersecurity Professional Certificate** — Coursera & One Million Coders (In Progress)
 
 ---
 
