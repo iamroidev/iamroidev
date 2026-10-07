@@ -36,7 +36,7 @@ Year 4 (Final Year) Computer Science & Engineering student at the University of 
 
 ## Projects
 
-*   [VoteEQ](https://voteeq.online) · [ComplianceIQ](https://github.com/iamroidev) *(WIP)* · [Scholar](https://schorla.vercel.app) · [InsightFlow](https://appinsightflow.vercel.app) · [KaiRova](https://kairovaclothing.com/)
+*   [VoteEQ](https://voteeq.online) · [ComplianceIQ](https://complianceiq-xi.vercel.app) *(WIP)* · [Scholar](https://schorla.vercel.app) · [InsightFlow](https://appinsightflow.vercel.app) · [KaiRova](https://kairovaclothing.com/)
 
 ---
 
