@@ -1,195 +1,206 @@
-%-------------------------
-% Resume in LaTeX
-% Author : Richard Kwaku Opoku
-% Based on: Jake Gutierrez resume template & modern ATS standards
-% License : MIT
-% Ready to compile on Overleaf (pdfLaTeX)
-%-------------------------
+%-------------------------------------------------------------------------------
+% RICHARD KWAKU OPOKU — CURRICULUM VITAE
+% Professional ATS-Compliant & Executive LaTeX Template
+% Engine: pdfLaTeX / XeLaTeX (Ready for Overleaf)
+%-------------------------------------------------------------------------------
 
-\documentclass[letterpaper,10pt]{article}
+\documentclass[10pt,a4paper]{article}
 
-\usepackage{latexsym}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage{marvosym}
-\usepackage[usenames,dvipsnames]{color}
-\usepackage{verbatim}
+% --- Core Typography & Geometry ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[left=0.48in, right=0.48in, top=0.42in, bottom=0.42in]{geometry}
+
+% --- Packages ---
+\usepackage{xcolor}
+\usepackage{hyperref}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\usepackage[english]{babel}
+\usepackage{titlesec}
 \usepackage{tabularx}
 \usepackage{fontawesome5}
+\usepackage{ragged2e}
 
-% Page dimensions
-\usepackage[left=0.55in,top=0.5in,right=0.55in,bottom=0.5in]{geometry}
+% --- Color Palette (Executive Navy & Slate Theme) ---
+\definecolor{primary}{HTML}{0F2D59}      % Deep Executive Navy
+\definecolor{secondary}{HTML}{1E40AF}    % Tech Cobalt Accent
+\definecolor{textdark}{HTML}{1F2937}     % Off-black for primary text
+\definecolor{textmuted}{HTML}{4B5563}    % Slate for dates/subtitles
+\definecolor{rulecolor}{HTML}{E2E8F0}    % Light divider line
+\definecolor{tagbg}{HTML}{F1F5F9}        % Subtle pill background
+\definecolor{linkcolor}{HTML}{1D4ED8}    % Clean hyperlink blue
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+% --- Hyperref Setup ---
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkcolor,
+    linkcolor=linkcolor,
+    citecolor=linkcolor,
+    pdfauthor={Richard Kwaku Opoku},
+    pdftitle={Richard Kwaku Opoku - CV},
+    pdfsubject={Cloud Security, Cybersecurity & Full-Stack Software Engineering}
+}
 
-% Adjust margins
-\addtolength{\oddsidemargin}{-0.0in}
-\addtolength{\evensidemargin}{-0.0in}
-\addtolength{\textwidth}{0.0in}
-\addtolength{\topmargin}{-0.0in}
-\addtolength{\textheight}{0.0in}
-
-\urlstyle{same}
-
+% --- Page Setup ---
+\pagestyle{empty}
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
 
-% Sections formatting
-\titleformat{\section}{
-  \vspace{-6pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
-
-% Custom commands
-\newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+% --- Custom List Formatting ---
+\setlist[itemize]{
+    leftmargin=0.14in,
+    itemsep=1.2pt,
+    topsep=1.5pt,
+    parsep=0pt,
+    partopsep=0pt,
+    label={\small\color{secondary}\raisebox{0.5pt}{\tiny$\blacksquare$}}
 }
 
-\newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \small #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-6pt}
+% --- Section Headings Formatting ---
+\titleformat{\section}
+  {\vspace{3pt}\color{primary}\scshape\raggedright\fontsize{10.5pt}{12pt}\selectfont\bfseries}
+  {}{0em}
+  {}
+  [{\color{primary}\titlerule[0.8pt]}\vspace{-3pt}]
+
+\titlespacing*{\section}{0pt}{4pt}{3pt}
+
+% --- Custom Macros ---
+\newcommand{\entryHeader}[4]{
+  \vspace{1.5pt}
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\fontsize{9.2pt}{11pt}\selectfont\color{primary}#1} & \fontsize{8.5pt}{10pt}\selectfont\color{textmuted}\textbf{#2} \\
+    \textit{\fontsize{8.5pt}{10pt}\selectfont\color{secondary}#3} & \textit{\fontsize{8.3pt}{10pt}\selectfont\color{textmuted}#4} \\
+  \end{tabular*}
+  \vspace{-2.5pt}
 }
 
-\newcommand{\resumeProjectHeading}[2]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
-      #1 & \small #2 \\
-    \end{tabular*}\vspace{-6pt}
+\newcommand{\projectHeader}[3]{
+  \vspace{1.5pt}
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\fontsize{9.2pt}{11pt}\selectfont\color{primary}#1} \ {\fontsize{8.2pt}{10pt}\selectfont\color{textmuted}$|$ \ \textit{#2}} & \fontsize{8.3pt}{10pt}\selectfont\href{#3}{\color{secondary}\textbf{\faExternalLink* \ Live Demo}} \\
+  \end{tabular*}
+  \vspace{-2.5pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\skillGroup}[2]{
+  \noindent\textbf{\fontsize{8.5pt}{10.5pt}\selectfont\color{primary}#1:} {\fontsize{8.4pt}{10.5pt}\selectfont\color{textdark}#2}\\[1.5pt]
+}
 
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
-
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-------------------------------------------------------------------------------
 \begin{document}
 
-%----------HEADING----------
+%===============================================================================
+% HEADER
+%===============================================================================
 \begin{center}
-    {\Huge \scshape Richard Kwaku Opoku} \\ \vspace{2pt}
-    {\small \textbf{Cloud Security $\cdot$ Cybersecurity $\cdot$ Cloud \& Full-Stack Engineering}} \\ \vspace{2pt}
-    \small \faPhone* \ +233 55 150 0736 \quad
-    \faEnvelope \ \href{mailto:richardkwakuopoku06@gmail.com}{\underline{richardkwakuopoku06@gmail.com}} \quad
-    \faGlobe \ \href{https://richardkwakuopoku.site}{\underline{richardkwakuopoku.site}} \quad
-    \faLinkedin \ \href{https://linkedin.com/in/richardkwakuopoku982}{\underline{in/richardkwakuopoku982}} \quad
-    \faGithub \ \href{https://github.com/iamroidev}{\underline{github.com/iamroidev}}
+    {\fontsize{20pt}{22pt}\selectfont\textbf{\color{primary}RICHARD KWAKU OPOKU}} \\[3pt]
+    {\fontsize{9.5pt}{11pt}\selectfont\textbf{\color{secondary}Cloud Security Engineer \ $\cdot$ \ Cybersecurity Specialist \ $\cdot$ \ Full-Stack Developer}} \\[3.5pt]
+    \fontsize{8.5pt}{10.5pt}\selectfont\color{textdark}
+    \faPhone*\ +233 55 150 0736 \quad$\cdot$\quad
+    \faEnvelope\ \href{mailto:richardkwakuopoku06@gmail.com}{richardkwakuopoku06@gmail.com} \quad$\cdot$\quad
+    \faMapMarkerAlt\ Tarkwa, Ghana \quad$\cdot$\quad
+    \faGlobe\ \href{https://richardkwakuopoku.site}{richardkwakuopoku.site} \quad$\cdot$\quad
+    \faLinkedin\ \href{https://linkedin.com/in/richardkwakuopoku982}{in/richardkwakuopoku982} \quad$\cdot$\quad
+    \faGithub\ \href{https://github.com/iamroidev}{github.com/iamroidev}
 \end{center}
+\vspace{-4pt}
 
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of Mines and Technology (UMaT)}{Tarkwa, Ghana}
-      {Bachelor of Science in Computer Science and Engineering}{2024 -- Expected June 2027}
-      \resumeItemListStart
-        \resumeItem{\textbf{Current Standing:} Year 4 (Final Year) $|$ First Class Honours (\textbf{80.87 CWA} / 100)}
-        \resumeItem{\textbf{Relevant Coursework:} Data Structures \& Algorithms, Operating Systems, Database Systems, Computer Networks, Software Engineering, Cryptography, Embedded Systems Design, Object-Oriented Programming.}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
+%===============================================================================
+% PROFESSIONAL SUMMARY
+%===============================================================================
+\section{Executive Profile}
+\fontsize{8.5pt}{11pt}\selectfont\color{textdark}
+Final-year Computer Science \& Engineering student with proven expertise in cloud security architecture, defensive web engineering, and high-concurrency production deployments. AWS Certified Cloud Practitioner and ISC2 Certified in Cybersecurity (CC) with 600+ hours of enterprise cloud training (AmaliTech AWS re/Start). Architected live web platforms serving 7,800+ financial transactions on hardened AWS EC2 infrastructure.
+\vspace{1pt}
 
-%-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages \& Core:}{ JavaScript (ES6+), TypeScript, Node.js, Python, SQL, HTML5/CSS3, C\#} \\ \vspace{1pt}
-     \textbf{Frontend \& Frameworks:}{ React.js, Next.js, Tailwind CSS, Responsive Design, State Management, REST API Consumption} \\ \vspace{1pt}
-     \textbf{Backend \& Databases:}{ Express.js, RESTful APIs, PostgreSQL, MongoDB, SQLite, JWT Auth, WebSockets, Paystack API} \\ \vspace{1pt}
-     \textbf{Cloud \& DevOps:}{ AWS (EC2, S3, IAM, Lambda, Amplify), Linux / Bash, Git / GitHub CI/CD, Nginx, Docker basics} \\ \vspace{1pt}
-     \textbf{Security \& Defense:}{ Web Application Security (OWASP Top 10), Network Scanning (Nmap), SQL Injection Defense, Least Privilege IAM}
-    }}
- \end{itemize}
+%===============================================================================
+% TECHNICAL SKILLS
+%===============================================================================
+\section{Core Technical Competencies}
+\skillGroup{Cloud \& Infrastructure}{AWS (EC2, S3, IAM, VPC, Lambda, Cognito, Amplify), Linux/Bash Administration, Nginx Reverse Proxy}
+\skillGroup{Cybersecurity \& Defense}{OWASP Top 10 Web Defense, Network Scanning \& Enumeration (Nmap), SQL Injection Mitigation, IAM Least-Privilege}
+\skillGroup{Backend \& API Engineering}{Node.js, Express.js, TypeScript/JavaScript (ES6+), RESTful API Design, JWT/Session Auth, WebSockets, Paystack API}
+\skillGroup{Frontend Engineering}{React.js, Next.js 15 (App Router), Tailwind CSS, State Management, Responsive Mobile-First Architecture}
+\skillGroup{Databases \& Tooling}{PostgreSQL, SQLite / Turso, MongoDB, Git/GitHub CI/CD, Postman, Relational Schema Design \& ACID Transactions}
+\vspace{1pt}
 
-%-----------EXPERIENCE-----------
-\section{Work \& Leadership Experience}
-  \resumeSubHeadingListStart
+%===============================================================================
+% PRODUCTION SYSTEMS & PROJECTS
+%===============================================================================
+\section{Featured Production Software Systems}
 
-    \resumeSubheading
-      {AmaliTech — AWS re/Start Cloud Program}{Takoradi / Online, Ghana}
-      {Cloud Practitioner Trainee \& Intern}{Jan 2026 -- Apr 2026}
-      \resumeItemListStart
-        \resumeItem{Completed intensive enterprise training in AWS cloud infrastructure, Linux systems administration, and secure Python automation.}
-        \resumeItem{Configured virtual private cloud (VPC) network boundaries, hardened S3 access policies, and implemented least-privilege IAM roles.}
-        \resumeItem{Engineered a serverless hospital queue application in a 4-person team using AWS Cognito, Lambda, API Gateway, and DynamoDB.}
-      \resumeItemListEnd
+\projectHeader{VoteEQ — Real-Time Voting \& Payment Settlement Platform}{React, Node.js, Express, PostgreSQL/Turso, Paystack, AWS EC2, WebSockets}{https://voteeq.online}
+\begin{itemize}
+    \item Architected and deployed an institutional voting and ticketing platform adopted officially by the UMaT CS Student Association.
+    \item Processed \textbf{7,800+ live transactions} with automated Paystack cryptographic webhook verification and idempotent database locks.
+    \item Built real-time WebSocket broadcast feeds for leaderboard synchronization; hardened production EC2 instance with SSL, rate-limiting, and CORS guards.
+\end{itemize}
 
-    \resumeSubheading
-      {AmaliTech Coding Club, UMaT}{Tarkwa, Ghana}
-      {Club Organizer \& Technical Peer Mentor}{Jan 2026 -- Present}
-      \resumeItemListStart
-        \resumeItem{Organized weekly developer bootcamps, code reviews, and programming challenge sessions for over 100 engineering students.}
-        \resumeItem{Mentored junior developers in defensive programming, version control with Git/GitHub, and modular backend API design.}
-      \resumeItemListEnd
+\projectHeader{KaiRova — Premium Streetwear E-Commerce \& Showcase}{Next.js 15, TypeScript, Tailwind CSS, Framer Motion, Vercel}{https://kai-rova.vercel.app}
+\begin{itemize}
+    \item Built a responsive commercial e-commerce product featuring dynamic category filtering, interactive product galleries, and size selectors.
+    \item Optimized frontend architecture with Next.js App Router server components, delivering sub-second page transitions and fluid mobile UX.
+\end{itemize}
 
-    \resumeSubheading
-      {UMaT Cybersecurity Club}{Tarkwa, Ghana}
-      {Active Technical Member}{Jan 2026 -- Present}
-      \resumeItemListStart
-        \resumeItem{Participated in practical offensive/defensive workshops focusing on host reconnaissance, network enumeration with Nmap, and SQLi mitigation.}
-      \resumeItemListEnd
+\projectHeader{Scholar — Academic Records \& Administration Portal}{Next.js, TypeScript, React, REST APIs, Role-Based Access Control}{https://schorla.vercel.app}
+\begin{itemize}
+    \item Engineered an administrative portal implementing granular Role-Based Access Control (RBAC) and structured student record analytics.
+\end{itemize}
 
-  \resumeSubHeadingListEnd
+\projectHeader{AI Hospital Queue Manager — Hackathon Project}{React, AWS Lambda, Amazon API Gateway, Amazon Cognito, Amazon DynamoDB}{https://github.com/iamroidev}
+\begin{itemize}
+    \item Led cloud architecture in a 4-person team to build a serverless clinical queue system with AWS Cognito authentication and DynamoDB persistence.
+\end{itemize}
+\vspace{1pt}
 
-%-----------PROJECTS-----------
-\section{Production Projects}
-    \resumeSubHeadingListStart
+%===============================================================================
+% WORK & LEADERSHIP EXPERIENCE
+%===============================================================================
+\section{Professional Experience \& Technical Leadership}
 
-      \resumeProjectHeading
-          {\textbf{VoteEQ} $|$ \emph{React, Node.js, Express, PostgreSQL / Turso, Paystack Webhooks, AWS EC2, WebSockets}}{2026}
-          \resumeItemListStart
-            \resumeItem{Architected and deployed a live nominee voting and ticketing platform adopted officially by the UMaT Computer Science Students Association.}
-            \resumeItem{Processed 7,800+ real transactions with automated Paystack verification webhooks and resilient database ACID transaction locks.}
-            \resumeItem{Implemented real-time WebSocket leaderboard broadcast feeds and secured backend endpoints with rate-limiting and JWT auth.}
-            \resumeItem{Live URL: \href{https://voteeq.online}{\underline{voteeq.online}}}
-          \resumeItemListEnd
+\entryHeader{AmaliTech — AWS re/Start Cloud Practitioner Program}{Takoradi / Online, Ghana}{Cloud Practitioner Trainee \& Intern}{Jan 2026 -- Apr 2026}
+\begin{itemize}
+    \item Completed 600+ hours of rigorous cloud systems training spanning AWS architecture, Linux systems administration, and Python automation.
+    \item Configured Virtual Private Clouds (VPC), multi-tier subnet routing, security groups, and automated S3 access logging with least-privilege IAM policies.
+\end{itemize}
 
-      \resumeProjectHeading
-          {\textbf{KaiRova (Streetwear E-Commerce Showcase)} $|$ \emph{Next.js 15, React, TypeScript, Tailwind CSS}}{2026}
-          \resumeItemListStart
-            \resumeItem{Engineered a high-performance web product with dynamic category catalog filters, lookbooks, and mobile UX.}
-            \resumeItem{Live URL: \href{https://kai-rova.vercel.app}{\underline{kai-rova.vercel.app}}}
-          \resumeItemListEnd
+\entryHeader{AmaliTech Coding Club, UMaT}{Tarkwa, Ghana}{Club Organizer \& Technical Lead Mentor}{Jan 2026 -- Present}
+\begin{itemize}
+    \item Facilitated technical bootcamps, algorithmic challenge labs, and code reviews for over \textbf{100 engineering students}.
+    \item Mentored junior developers in defensive programming hygiene, Git/GitHub collaborative workflows, and RESTful API engineering.
+\end{itemize}
 
-      \resumeProjectHeading
-          {\textbf{Scholar (Academic Management Portal)} $|$ \emph{Next.js, TypeScript, REST APIs, Role-Based Access Control}}{2026}
-          \resumeItemListStart
-            \resumeItem{Engineered an administrative student workflow portal with role-based access control (RBAC) and responsive analytical dashboards.}
-            \resumeItem{Live URL: \href{https://schorla.vercel.app}{\underline{schorla.vercel.app}}}
-          \resumeItemListEnd
-            \resumeItem{Live URL: \href{https://appinsightflow.vercel.app}{\underline{appinsightflow.vercel.app}}}
-          \resumeItemListEnd
+\entryHeader{UMaT Cybersecurity Club}{Tarkwa, Ghana}{Active Technical Member}{Jan 2026 -- Present}
+\begin{itemize}
+    \item Conducted weekly hands-on offensive/defensive labs focusing on network host discovery, port scanning with Nmap, and SQL injection vulnerability mitigation.
+\end{itemize}
 
-    \resumeSubHeadingListEnd
+\entryHeader{Department of Computer Science and Engineering, UMaT}{Tarkwa, Ghana}{Teaching Assistant \& Peer Tutor (C\# \& Data Structures)}{2025 -- Present}
+\begin{itemize}
+    \item Tutored undergraduate students in object-oriented programming (C\#), algorithmic complexity, memory management, and database fundamentals.
+\end{itemize}
+\vspace{1pt}
 
-%-----------CERTIFICATIONS-----------
-\section{Certifications \& Honors}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{AWS Certified Cloud Practitioner (CCP)} -- Amazon Web Services $|$ \href{https://www.credly.com/badges/0de7d0e0-e0b0-436c-84ac-8b52919ed987/public_url}{\underline{Credly Verification}} \\ \vspace{1pt}
-     \textbf{Certified in Cybersecurity (CC)} -- ISC2 (Access Control, Network Security, Incident Response) \\ \vspace{1pt}
-     \textbf{Google Cybersecurity Professional Certificate} -- Coursera / One Million Coders (In Progress) \\ \vspace{1pt}
-     \textbf{Machine Learning Specialization} -- DeepLearning.AI / Stanford Online $|$ \href{https://coursera.org/share/099b28416aa04c09512a4d1fb1e9cc81}{\underline{Coursera Verification}}
-    }}
- \end{itemize}
+%===============================================================================
+% EDUCATION & CERTIFICATIONS
+%===============================================================================
+\section{Education \& Industry Certifications}
 
-%-------------------------------------------
+\entryHeader{University of Mines and Technology (UMaT)}{Tarkwa, Ghana}{BSc in Computer Science and Engineering — Year 4 (Final Year)}{2024 -- Expected June 2027}
+\begin{itemize}
+    \item \textbf{Academic Standing:} First Class Honours $|$ Cumulative Weighted Average (\textbf{80.87 / 100 CWA}).
+    \item \textbf{Core Coursework:} Operating Systems, Computer Networks, Database Systems, Cryptography, Software Engineering, Embedded Systems Design.
+\end{itemize}
+
+\vspace{1.5pt}
+\noindent\textbf{\fontsize{8.5pt}{10.5pt}\selectfont\color{primary}Professional Certifications:} 
+\fontsize{8.3pt}{10.5pt}\selectfont
+\textbf{AWS Certified Cloud Practitioner (CCP)} (\href{https://www.credly.com/badges/0de7d0e0-e0b0-436c-84ac-8b52919ed987/public_url}{Credly Verified}) $\cdot$ 
+\textbf{ISC2 Certified in Cybersecurity (CC)} $\cdot$ 
+\textbf{Google Cybersecurity Professional Certificate} (Coursera / One Million Coders, In Progress) $\cdot$ 
+\textbf{Machine Learning Specialization} (DeepLearning.AI / Stanford, \href{https://coursera.org/share/099b28416aa04c09512a4d1fb1e9cc81}{Verified}).
+
 \end{document}
