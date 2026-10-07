@@ -18,8 +18,10 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
-TEMPLATE = ROOT / "STUDENT CV TEMPLATE.docx"
-OUT = ROOT / "cv" / "CE3_FCM4100819823_OPOKU-Richard-Kwaku_CV.docx"
+TEMPLATE = ROOT / "archive" / "STUDENT CV TEMPLATE.docx"
+if not TEMPLATE.exists():
+    TEMPLATE = ROOT / "STUDENT CV TEMPLATE.docx"
+OUT = ROOT / "cv" / "Richard_Kwaku_Opoku_CV.docx"
 
 # numId=1 in the template (abstractNumId=2) is the bullet list used in example content
 BULLET_NUM_ID = "1"
@@ -251,7 +253,7 @@ def build():
     # --- Professional Summary ---
     # Find and replace the Body Text paragraph after PROFESSIONAL SUMMARY heading
     summary_text = (
-        "Computer Science and Engineering student at UMaT (Year 3, 80.87 CWA, First Class standing). "
+        "Computer Science and Engineering student at UMaT (Year 4, 80.87 CWA, First Class standing). "
         "AWS re/Start graduate with strong cloud software engineering foundations, hands-on security "
         "training, and experience building and deploying live web applications "
         "(React, Next.js, Node.js, Python, and AWS EC2/Amplify)."
@@ -339,11 +341,10 @@ def build():
         "VOTEEQ – PAID NOMINEE VOTING & EVENT TICKETING PLATFORM",
         "Full-Stack Developer & Architect  |  voteeq.online",
         bullets=[
-            "Built and deployed a paid nominee voting and event ticketing platform serving 45 award "
-            "categories, 63 nominees, and 7,891 votes (GHS 7,891 revenue) for the official ACSES "
-            "Praemia Pro Virtute Dinner & Awards Night.",
-            "Implemented Paystack hosted checkout, real-time leaderboard updates via WebSockets, "
-            "libSQL database, nominee dashboards, and admin tooling; frontend on Vercel, API on AWS EC2.",
+            "Built and deployed a live voting and ticketing platform for the official ACSES awards, "
+            "processing 7,891 votes across 45 categories and generating GHS 7,891 in revenue.",
+            "Implemented Paystack checkout, real-time WebSocket leaderboards, and admin tooling; "
+            "frontend on Vercel, API on AWS EC2.",
         ],
     )
     add_entry_row(
@@ -352,9 +353,8 @@ def build():
         "SCHOLAR – AI SCHOLARSHIP MATCHING ENGINE",
         "Full-Stack Developer  |  schorla.vercel.app",
         bullets=[
-            "Built an NLP-powered matching engine that parses CVs, transcripts, and SOPs to align "
-            "student profiles with verified funding opportunities.",
-            "Developed with Next.js, LlamaCloud, Supabase, and Stripe billing.",
+            "Built an NLP-powered engine that parses CVs, transcripts, and SOPs to match students "
+            "with verified funding opportunities; deployed with Next.js, LlamaCloud, and Supabase.",
         ],
     )
     add_entry_row(
@@ -363,61 +363,29 @@ def build():
         "INSIGHTFLOW – AI-POWERED READING ASSISTANT",
         "Full-Stack Developer  |  appinsightflow.vercel.app",
         bullets=[
-            "Built a RAG pipeline that converts books and documents into structured learning paths, "
-            "generating guided text summaries and synthesized audio streams.",
-            "Developed with React, Vite, TypeScript, and Supabase.",
+            "Built a RAG pipeline that converts books and documents into guided learning paths with "
+            "text summaries and synthesized audio; built with React, TypeScript, and Supabase.",
         ],
     )
     add_entry_row(
         proj_table,
         "2026",
-        "KAIROVA – PREMIUM STREETWEAR E-COMMERCE SHOWCASE",
+        "KAIROVA – STREETWEAR E-COMMERCE SHOWCASE",
         "Full-Stack Developer  |  kai-rova.vercel.app",
         bullets=[
-            "Built a premium clothing catalog and brand experience showcase for a streetwear brand.",
-            "Implemented category catalog filters, interactive detail galleries, size selector drawers, "
-            "and dynamic user query forms. Built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion.",
-        ],
-    )
-    add_entry_row(
-        proj_table,
-        "2026",
-        "AWS RE/START GRADUATE HACKATHON – AI MEDICAL QUEUE APPLICATION",
-        "Team Hackathon Project  |  AmaliTech",
-        bullets=[
-            "Collaborated in a team to design and build a hospital queue management system.",
-            "Implemented user authentication via AWS Cognito, serverless endpoints with Lambda + "
-            "API Gateway, DynamoDB database, and Amplify frontend hosting.",
-        ],
-    )
-    add_entry_row(
-        proj_table,
-        "2026",
-        "AMALITECH CODING CLUB ORGANIZER",
-        "Coding Club  |  UMaT",
-        bullets=[
-            "Organized coding workshops, technical bootcamps, and peer-to-peer programming practice sessions.",
-            "Coordinated student mentoring, algorithmic tutorials, and collaborative hacking events.",
-        ],
-    )
-    add_entry_row(
-        proj_table,
-        "2026 – Present",
-        "UMaT CYBERSECURITY CLUB – MEMBER",
-        "Cybersecurity Club  |  UMaT",
-        bullets=[
-            "Participated in hands-on technical workshops focused on network scanning and enumeration "
-            "using Nmap, and database vulnerability exploitation via SQL injection.",
+            "Built a premium clothing catalog with category filters, interactive galleries, and size "
+            "selector drawers using Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.",
         ],
     )
     add_entry_row(
         proj_table,
         "2024 – Present",
-        "ROBOTICS CLUB (AAENICS) – IOT & EMBEDDED SYSTEMS",
+        "CAMPUS LEADERSHIP & TECHNICAL CLUBS",
         "UMaT",
         bullets=[
-            "Completed hands-on training and built embedded prototypes using ESP32, MQTT protocols, "
-            "Embedded C, and Raspberry Pi.",
+            "Coding Club Organizer — ran workshops and bootcamps for student developers at AmaliTech.",
+            "Cybersecurity Club — completed hands-on Nmap enumeration and SQL injection labs.",
+            "Robotics Club (AAENICS) — built embedded prototypes using ESP32, MQTT, and Raspberry Pi.",
         ],
     )
 

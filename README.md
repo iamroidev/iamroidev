@@ -1,7 +1,7 @@
 # Hi there, I'm Richard Kwaku Opoku! 🚀
 *(Also known as **iamroidev**)*
 
-Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 3 Computer Science & Engineering @ UMaT.
+Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 4 Computer Science & Engineering @ UMaT.
 
 🔗 **Live Portfolio:** [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Backup: [iamroidev.vercel.app](https://iamroidev.vercel.app) / [AWS Amplify](https://main.dcgztfly74suw.amplifyapp.com/)) · [Download CV](cv/Richard_Kwaku_Opoku_CV.pdf)
 
@@ -11,7 +11,7 @@ Cybersecurity and cloud security portfolio for **Richard Kwaku Opoku** — Year 
 
 AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Coursera — plus apps I've built and still run.
 
-- 🎓 **UMaT** · Year 3 · Expected 2027 
+- 🎓 **UMaT** · Year 4 (Final Year) · Expected 2027 
 - ✉️ **Contact:** [richardkwakuopoku06@gmail.com](mailto:richardkwakuopoku06@gmail.com) | [LinkedIn](https://linkedin.com/in/richardkwakuopoku982) | [WhatsApp](https://wa.me/233508597910)
 
 ---

@@ -18,14 +18,15 @@ Everything about me in one place — academics, work, projects, skills. Pulled f
 
 ## 2. Summary
 
-Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate with strong cloud software engineering foundations, hands-on security training, and experience building and deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify).
+Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate with strong cloud software engineering foundations, hands-on security training, and experience building and deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify).
 
----im in Cybersecurity Club too,  joined this year
+---
+
 ## 3. Education
 
 ### **University of Mines and Technology (UMaT)** | Tarkwa, Ghana
 *Bachelor of Science in Computer Science and Engineering*  
-**Duration:** 2024 – Expected 2027 (Year 3)  
+**Duration:** 2024 – Expected 2027 (Year 4 / Final Year)  
 - **Class:** (First Class standing)  
 - **Relevant Coursework:** Data Structures & Algorithms, Software Engineering, Artificial Intelligence, Advanced Database Systems, Operating Systems, Embedded System Design, Web Programming, Object-Oriented Programming
 

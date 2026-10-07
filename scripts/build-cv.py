@@ -109,7 +109,7 @@ def build() -> Path:
 
     pdf.section("Summary")
     pdf.body(
-        "Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate "
+        "Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate "
         "with strong cloud software engineering foundations, hands-on security training, and experience building and "
         "deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify)."
     )

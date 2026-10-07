@@ -52,7 +52,7 @@ const SIGNATURE = `<table cellpadding="0" cellspacing="0" border="0" style="bord
     <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
       <tr><td style="height:1px;background-color:#e8e0cc;font-size:0;line-height:0;">&nbsp;</td></tr>
     </table>
-    <p style="margin:5px 0 0 0;font-size:10px;color:#aaaaaa;font-family:Arial,Helvetica,sans-serif;">BSc Computer Science &amp; Engineering, Year 3 &nbsp;&middot;&nbsp; University of Mines and Technology</p>
+    <p style="margin:5px 0 0 0;font-size:10px;color:#aaaaaa;font-family:Arial,Helvetica,sans-serif;">BSc Computer Science &amp; Engineering, Year 4 &nbsp;&middot;&nbsp; University of Mines and Technology</p>
   </td>
 </tr>
 </table>`;

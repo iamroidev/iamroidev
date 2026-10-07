@@ -9,13 +9,13 @@ linkedin.com/in/richardkwakuopoku982 | github.com/iamroidev | richardkwakuopoku.
 
 ## Summary
 
-Year 3 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate with strong cloud software engineering foundations, hands-on security training, and experience building and deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify). 
+Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class standing). AWS re/Start graduate with strong cloud software engineering foundations, hands-on security training, and experience building and deploying live web applications (React, Next.js, Node.js, Python, MongoDB, and AWS EC2/Amplify). 
 
 ---
 
 ## Education
 
-**Bachelor of Science in Computer Science and Engineering** — Year 3 · Expected 2027  
+**Bachelor of Science in Computer Science and Engineering** — Year 4 · Expected 2027  
 University of Mines and Technology (UMaT), Tarkwa, Ghana  
 - **CWA:** 80.87 (First Class standing)
 - **Relevant coursework:** Data Structures & Algorithms, Software Engineering, Artificial Intelligence, Advanced Database Systems, Operating Systems, Embedded System Design, Web Programming, Object-Oriented Programming
