@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 % RICHARD KWAKU OPOKU — CURRICULUM VITAE
 % Professional ATS-Compliant & Executive LaTeX Template
-% Engine: pdfLaTeX / XeLaTeX (Ready for Overleaf)
+% Engine: pdfLaTeX / XeLaTeX
 %-------------------------------------------------------------------------------
 
 \documentclass[10pt,a4paper]{article}
@@ -11,9 +11,10 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{microtype}
-\usepackage[left=0.48in, right=0.48in, top=0.42in, bottom=0.42in]{geometry}
+\usepackage[left=0.48in, right=0.48in, top=0.38in, bottom=0.38in]{geometry}
 
 % --- Packages ---
+\usepackage{amsmath,amssymb}
 \usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{enumitem}
@@ -22,13 +23,12 @@
 \usepackage{fontawesome5}
 \usepackage{ragged2e}
 
-% --- Color Palette (Executive Navy & Slate Theme) ---
+% --- Color Palette (Executive Navy Theme) ---
 \definecolor{primary}{HTML}{0F2D59}      % Deep Executive Navy
 \definecolor{secondary}{HTML}{1E40AF}    % Tech Cobalt Accent
 \definecolor{textdark}{HTML}{1F2937}     % Off-black for primary text
 \definecolor{textmuted}{HTML}{4B5563}    % Slate for dates/subtitles
-\definecolor{rulecolor}{HTML}{E2E8F0}    % Light divider line
-\definecolor{tagbg}{HTML}{F1F5F9}        % Subtle pill background
+\definecolor{rulecolor}{HTML}{CBD5E1}    % Light divider line
 \definecolor{linkcolor}{HTML}{1D4ED8}    % Clean hyperlink blue
 
 % --- Hyperref Setup ---
@@ -38,7 +38,7 @@
     linkcolor=linkcolor,
     citecolor=linkcolor,
     pdfauthor={Richard Kwaku Opoku},
-    pdftitle={Richard Kwaku Opoku - CV},
+    pdftitle={Richard Kwaku Opoku - Curriculum Vitae},
     pdfsubject={Cloud Security, Cybersecurity & Full-Stack Software Engineering}
 }
 
@@ -51,8 +51,8 @@
 % --- Custom List Formatting ---
 \setlist[itemize]{
     leftmargin=0.14in,
-    itemsep=1.2pt,
-    topsep=1.5pt,
+    itemsep=1.0pt,
+    topsep=1.0pt,
     parsep=0pt,
     partopsep=0pt,
     label={\small\color{secondary}\raisebox{0.5pt}{\tiny$\blacksquare$}}
@@ -60,33 +60,35 @@
 
 % --- Section Headings Formatting ---
 \titleformat{\section}
-  {\vspace{3pt}\color{primary}\scshape\raggedright\fontsize{10.5pt}{12pt}\selectfont\bfseries}
+  {\vspace{2pt}\color{primary}\scshape\raggedright\fontsize{10.0pt}{11.5pt}\selectfont\bfseries}
   {}{0em}
   {}
-  [{\color{primary}\titlerule[0.8pt]}\vspace{-3pt}]
+  [{\color{primary}\titlerule[0.75pt]}\vspace{-3pt}]
 
-\titlespacing*{\section}{0pt}{4pt}{3pt}
+\titlespacing*{\section}{0pt}{3.5pt}{2.5pt}
 
-% --- Custom Macros ---
+% --- Custom Macros using Tabularx for Perfect Column Alignment ---
 \newcommand{\entryHeader}[4]{
-  \vspace{1.5pt}
-  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{\fontsize{9.2pt}{11pt}\selectfont\color{primary}#1} & \fontsize{8.5pt}{10pt}\selectfont\color{textmuted}\textbf{#2} \\
-    \textit{\fontsize{8.5pt}{10pt}\selectfont\color{secondary}#3} & \textit{\fontsize{8.3pt}{10pt}\selectfont\color{textmuted}#4} \\
-  \end{tabular*}
+  \vspace{1.0pt}
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{\fontsize{9.0pt}{10.5pt}\selectfont\color{primary}#1} & \fontsize{8.3pt}{10pt}\selectfont\color{textmuted}\textbf{#2} \\
+    \textit{\fontsize{8.3pt}{10pt}\selectfont\color{secondary}#3} & \textit{\fontsize{8.1pt}{10pt}\selectfont\color{textmuted}#4} \\
+  \end{tabularx}
   \vspace{-2.5pt}
 }
 
 \newcommand{\projectHeader}[3]{
-  \vspace{1.5pt}
-  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-    \textbf{\fontsize{9.2pt}{11pt}\selectfont\color{primary}#1} \ {\fontsize{8.2pt}{10pt}\selectfont\color{textmuted}$|$ \ \textit{#2}} & \fontsize{8.3pt}{10pt}\selectfont\href{#3}{\color{secondary}\textbf{\faExternalLink* \ Live Demo}} \\
-  \end{tabular*}
+  \vspace{1.0pt}
+  \noindent
+  \begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{\fontsize{9.0pt}{10.5pt}\selectfont\color{primary}#1} \ {\fontsize{8.0pt}{10pt}\selectfont\color{textmuted}$|$ \ \textit{#2}} & \fontsize{8.0pt}{10pt}\selectfont\href{#3}{\color{secondary}\textbf{\faExternalLink*\ Live Demo}} \\
+  \end{tabularx}
   \vspace{-2.5pt}
 }
 
 \newcommand{\skillGroup}[2]{
-  \noindent\textbf{\fontsize{8.5pt}{10.5pt}\selectfont\color{primary}#1:} {\fontsize{8.4pt}{10.5pt}\selectfont\color{textdark}#2}\\[1.5pt]
+  \noindent\textbf{\fontsize{8.3pt}{10.2pt}\selectfont\color{primary}#1:} {\fontsize{8.2pt}{10.2pt}\selectfont\color{textdark}#2}\\[1.0pt]
 }
 
 %-------------------------------------------------------------------------------
@@ -96,25 +98,25 @@
 % HEADER
 %===============================================================================
 \begin{center}
-    {\fontsize{20pt}{22pt}\selectfont\textbf{\color{primary}RICHARD KWAKU OPOKU}} \\[3pt]
-    {\fontsize{9.5pt}{11pt}\selectfont\textbf{\color{secondary}Cloud Security Engineer \ $\cdot$ \ Cybersecurity Specialist \ $\cdot$ \ Full-Stack Developer}} \\[3.5pt]
-    \fontsize{8.5pt}{10.5pt}\selectfont\color{textdark}
+    {\fontsize{18pt}{20pt}\selectfont\textbf{\color{primary}RICHARD KWAKU OPOKU}} \\[2.5pt]
+    {\fontsize{9.0pt}{10.5pt}\selectfont\textbf{\color{secondary}Cloud Security Engineer \ $\cdot$ \ Cybersecurity Specialist \ $\cdot$ \ Full-Stack Developer}} \\[3.0pt]
+    \fontsize{8.2pt}{10pt}\selectfont\color{textdark}
     \faPhone*\ +233 55 150 0736 \quad$\cdot$\quad
     \faEnvelope\ \href{mailto:richardkwakuopoku06@gmail.com}{richardkwakuopoku06@gmail.com} \quad$\cdot$\quad
-    \faMapMarkerAlt\ Tarkwa, Ghana \quad$\cdot$\quad
+    \faMapMarker*\ Tarkwa, Ghana \quad$\cdot$\quad
     \faGlobe\ \href{https://richardkwakuopoku.site}{richardkwakuopoku.site} \quad$\cdot$\quad
     \faLinkedin\ \href{https://linkedin.com/in/richardkwakuopoku982}{in/richardkwakuopoku982} \quad$\cdot$\quad
     \faGithub\ \href{https://github.com/iamroidev}{github.com/iamroidev}
 \end{center}
-\vspace{-4pt}
+\vspace{-5pt}
 
 %===============================================================================
 % PROFESSIONAL SUMMARY
 %===============================================================================
 \section{Executive Profile}
-\fontsize{8.5pt}{11pt}\selectfont\color{textdark}
-Final-year Computer Science \& Engineering student with proven expertise in cloud security architecture, defensive web engineering, and high-concurrency production deployments. AWS Certified Cloud Practitioner and ISC2 Certified in Cybersecurity (CC) with 600+ hours of enterprise cloud training (AmaliTech AWS re/Start). Architected live web platforms serving 7,800+ financial transactions on hardened AWS EC2 infrastructure.
-\vspace{1pt}
+\fontsize{8.3pt}{10.5pt}\selectfont\color{textdark}
+Final-year Computer Science \& Engineering student specializing in cloud security architecture, defensive web engineering, and high-concurrency production systems. AWS Certified Cloud Practitioner and ISC2 Certified in Cybersecurity (CC) with 600+ hours of enterprise cloud training (AmaliTech AWS re/Start). Architected live web applications processing 7,800+ real transactions on hardened AWS EC2 infrastructure.
+\vspace{0.5pt}
 
 %===============================================================================
 % TECHNICAL SKILLS
@@ -123,9 +125,9 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
 \skillGroup{Cloud \& Infrastructure}{AWS (EC2, S3, IAM, VPC, Lambda, Cognito, Amplify), Linux/Bash Administration, Nginx Reverse Proxy}
 \skillGroup{Cybersecurity \& Defense}{OWASP Top 10 Web Defense, Network Scanning \& Enumeration (Nmap), SQL Injection Mitigation, IAM Least-Privilege}
 \skillGroup{Backend \& API Engineering}{Node.js, Express.js, TypeScript/JavaScript (ES6+), RESTful API Design, JWT/Session Auth, WebSockets, Paystack API}
-\skillGroup{Frontend Engineering}{React.js, Next.js 15 (App Router), Tailwind CSS, State Management, Responsive Mobile-First Architecture}
+\skillGroup{Frontend Engineering}{React.js, Next.js 15 (App Router), Tailwind CSS, State Management, Responsive Mobile-First UI}
 \skillGroup{Databases \& Tooling}{PostgreSQL, SQLite / Turso, MongoDB, Git/GitHub CI/CD, Postman, Relational Schema Design \& ACID Transactions}
-\vspace{1pt}
+\vspace{0.5pt}
 
 %===============================================================================
 % PRODUCTION SYSTEMS & PROJECTS
@@ -136,12 +138,12 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
 \begin{itemize}
     \item Architected and deployed an institutional voting and ticketing platform adopted officially by the UMaT CS Student Association.
     \item Processed \textbf{7,800+ live transactions} with automated Paystack cryptographic webhook verification and idempotent database locks.
-    \item Built real-time WebSocket broadcast feeds for leaderboard synchronization; hardened production EC2 instance with SSL, rate-limiting, and CORS guards.
+    \item Built real-time WebSocket broadcast feeds for leaderboard sync; hardened production EC2 with SSL, rate-limiting, and CORS guards.
 \end{itemize}
 
 \projectHeader{KaiRova — Premium Streetwear E-Commerce \& Showcase}{Next.js 15, TypeScript, Tailwind CSS, Framer Motion, Vercel}{https://kai-rova.vercel.app}
 \begin{itemize}
-    \item Built a responsive commercial e-commerce product featuring dynamic category filtering, interactive product galleries, and size selectors.
+    \item Built a responsive commercial product featuring dynamic category filtering, interactive product lookbooks, and modular components.
     \item Optimized frontend architecture with Next.js App Router server components, delivering sub-second page transitions and fluid mobile UX.
 \end{itemize}
 
@@ -150,11 +152,11 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
     \item Engineered an administrative portal implementing granular Role-Based Access Control (RBAC) and structured student record analytics.
 \end{itemize}
 
-\projectHeader{AI Hospital Queue Manager — Hackathon Project}{React, AWS Lambda, Amazon API Gateway, Amazon Cognito, Amazon DynamoDB}{https://github.com/iamroidev}
+\projectHeader{AI Hospital Queue Manager — Hackathon Project}{React, AWS Lambda, Amazon API Gateway, Amazon Cognito, DynamoDB}{https://github.com/iamroidev}
 \begin{itemize}
-    \item Led cloud architecture in a 4-person team to build a serverless clinical queue system with AWS Cognito authentication and DynamoDB persistence.
+    \item Led cloud architecture in a 4-person team to build a serverless clinical queue system with AWS Cognito auth and DynamoDB persistence.
 \end{itemize}
-\vspace{1pt}
+\vspace{0.5pt}
 
 %===============================================================================
 % WORK & LEADERSHIP EXPERIENCE
@@ -163,8 +165,8 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
 
 \entryHeader{AmaliTech — AWS re/Start Cloud Practitioner Program}{Takoradi / Online, Ghana}{Cloud Practitioner Trainee \& Intern}{Jan 2026 -- Apr 2026}
 \begin{itemize}
-    \item Completed 600+ hours of rigorous cloud systems training spanning AWS architecture, Linux systems administration, and Python automation.
-    \item Configured Virtual Private Clouds (VPC), multi-tier subnet routing, security groups, and automated S3 access logging with least-privilege IAM policies.
+    \item Completed 600+ hours of enterprise cloud systems training spanning AWS architecture, Linux administration, and Python automation.
+    \item Configured Virtual Private Clouds (VPC), multi-tier subnet routing, security groups, and automated S3 logging with least-privilege IAM.
 \end{itemize}
 
 \entryHeader{AmaliTech Coding Club, UMaT}{Tarkwa, Ghana}{Club Organizer \& Technical Lead Mentor}{Jan 2026 -- Present}
@@ -175,14 +177,14 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
 
 \entryHeader{UMaT Cybersecurity Club}{Tarkwa, Ghana}{Active Technical Member}{Jan 2026 -- Present}
 \begin{itemize}
-    \item Conducted weekly hands-on offensive/defensive labs focusing on network host discovery, port scanning with Nmap, and SQL injection vulnerability mitigation.
+    \item Conducted weekly practical offensive/defensive labs focusing on network host discovery, port scanning with Nmap, and SQLi mitigation.
 \end{itemize}
 
 \entryHeader{Department of Computer Science and Engineering, UMaT}{Tarkwa, Ghana}{Teaching Assistant \& Peer Tutor (C\# \& Data Structures)}{2025 -- Present}
 \begin{itemize}
-    \item Tutored undergraduate students in object-oriented programming (C\#), algorithmic complexity, memory management, and database fundamentals.
+    \item Tutored undergraduate students in object-oriented programming (C\#), algorithmic complexity, memory management, and databases.
 \end{itemize}
-\vspace{1pt}
+\vspace{0.5pt}
 
 %===============================================================================
 % EDUCATION & CERTIFICATIONS
@@ -192,12 +194,12 @@ Final-year Computer Science \& Engineering student with proven expertise in clou
 \entryHeader{University of Mines and Technology (UMaT)}{Tarkwa, Ghana}{BSc in Computer Science and Engineering — Year 4 (Final Year)}{2024 -- Expected June 2027}
 \begin{itemize}
     \item \textbf{Academic Standing:} First Class Honours $|$ Cumulative Weighted Average (\textbf{80.87 / 100 CWA}).
-    \item \textbf{Core Coursework:} Operating Systems, Computer Networks, Database Systems, Cryptography, Software Engineering, Embedded Systems Design.
+    \item \textbf{Core Coursework:} Operating Systems, Computer Networks, Database Systems, Cryptography, Software Engineering, Embedded Systems.
 \end{itemize}
 
-\vspace{1.5pt}
-\noindent\textbf{\fontsize{8.5pt}{10.5pt}\selectfont\color{primary}Professional Certifications:} 
-\fontsize{8.3pt}{10.5pt}\selectfont
+\vspace{1.0pt}
+\noindent\textbf{\fontsize{8.3pt}{10.2pt}\selectfont\color{primary}Professional Certifications:} 
+\fontsize{8.1pt}{10.2pt}\selectfont
 \textbf{AWS Certified Cloud Practitioner (CCP)} (\href{https://www.credly.com/badges/0de7d0e0-e0b0-436c-84ac-8b52919ed987/public_url}{Credly Verified}) $\cdot$ 
 \textbf{ISC2 Certified in Cybersecurity (CC)} $\cdot$ 
 \textbf{Google Cybersecurity Professional Certificate} (Coursera / One Million Coders, In Progress) $\cdot$ 
