@@ -87,7 +87,12 @@ Ghanaian commercial banks run large internal Security Operations Centers (SOCs),
    - Submit your CV, portfolio, and an NSS Requisition Request Letter directly to the HR/IT department of your target institution.
    - Request an official **Acceptance / Request Letter (Letter of Introduction)** with the company's NSS Registration Code.
    - When the NSS portal opens for final year students, upload the letter code to lock in your placement.
-2. **Cold Emailing for Direct Internships / Developer Roles:**
-   - Always address the email to the Engineering Lead / HR with a clear, concise subject line:  
-     `Full-Stack Developer Application — Richard Kwaku Opoku (BSc Computer Science, UMaT)`
-   - Attach your **1-page ATS-compliant PDF CV** and include 2–3 bullet points highlighting live, working production systems (e.g. VoteEQ, AWS labs).
+2. **Cold Emailing for Direct Roles, Internships & NSS Placement:**
+   - Tailor your subject line to the specific department, with **Cloud & Cybersecurity** as your primary focus:
+     - **Cybersecurity / SOC / Network Defense (Banks, Telcos, CSA, BoG):**  
+       `Cybersecurity & Cloud Security Engineer Application — Richard Kwaku Opoku (BSc Computer Science, UMaT)`
+     - **Cloud Infrastructure / DevOps / Systems Admin:**  
+       `Cloud & Infrastructure Engineer Application — Richard Kwaku Opoku (AWS CCP, BSc Computer Science)`
+     - **Full-Stack / Product Engineering (When applying to software dev teams like Aidnovate):**  
+       `Full-Stack Developer Application — Richard Kwaku Opoku (BSc Computer Science, UMaT)`
+   - Attach your **1-page ATS-compliant PDF CV** and include 2–3 targeted bullet points (e.g. AWS labs, IAM/S3 hardening, ISC2 CC, VoteEQ production architecture).

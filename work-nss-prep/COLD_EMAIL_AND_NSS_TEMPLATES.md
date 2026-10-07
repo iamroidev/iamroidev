@@ -44,24 +44,25 @@ LinkedIn: https://linkedin.com/in/richardkwakuopoku982
 
 ---
 
-## 2. Cold Outreach to Tech Lead / Engineering Manager (Direct Developer Roles)
+## 2. Cold Outreach to Tech Lead / IT Director (Cybersecurity & Cloud Security)
 
 ```email
-Subject: Full-Stack / Cloud Engineer — Richard Kwaku Opoku (UMaT CS Grad)
+Subject: Cybersecurity & Cloud Security Graduate — Richard Kwaku Opoku (AWS CCP, UMaT)
 
-Hi [Name / Tech Lead],
+Hi [Name / Head of IT & Security],
 
-I've been following [Company Name]’s work on [mention a product, feature, or recent milestone], and I really admire how the team is building scalable digital solutions in Ghana.
+I've been following [Company / Bank / Institution Name]’s digital expansion and cloud initiatives in Ghana.
 
-I am a final-year Computer Science & Engineering student at UMaT (First Class standing, 80.87 CWA) and an AWS Certified Cloud Practitioner. I specialize in full-stack JavaScript/TypeScript (React, Node.js), relational database design (PostgreSQL), and cloud infrastructure (AWS EC2/S3/IAM).
+I am a final-year Computer Science & Engineering student at UMaT (First Class standing, 80.87 CWA), an AWS Certified Cloud Practitioner, and holder of the ISC2 Certified in Cybersecurity (CC) credential. My technical focus is cloud security architecture (AWS IAM least-privilege, S3 encryption, VPC isolation), network host enumeration (Nmap), and defensive web engineering.
 
-Rather than just academic exercises, I focus on building resilient production tools:
-- Built VoteEQ (https://voteeq.online), a high-concurrency voting and ticketing system with live Paystack webhooks and WebSockets on AWS.
-- Led the AmaliTech Coding Club, mentoring 100+ students in defensive coding and Git workflows.
+In addition to formal security labs, I build and deploy secure production systems:
+- Production Security Architecture: Architected VoteEQ (https://voteeq.online), implementing hardened AWS EC2 hosting, Paystack cryptographic webhook verification, and rate-limited REST endpoints.
+- Cloud & Security Training: AWS re/Start graduate (AmaliTech) with 600+ hours in cloud defense; active member of the UMaT Cybersecurity Club.
+- Full-Stack Capabilities: Proficient in TypeScript, React, Node.js, and PostgreSQL for building and auditing internal security tools.
 
-I’d love to explore any current or upcoming Junior Developer, Intern, or NSS opportunities on your engineering team.
+I would love to explore upcoming Junior Cloud/Security Engineer, SOC Analyst, or NSS placement opportunities within your team.
 
-My 1-page CV is attached. You can also view my live projects at https://richardkwakuopoku.site and GitHub at https://github.com/iamroidev.
+My 1-page CV is attached. You can view my technical labs and portfolio at https://richardkwakuopoku.site and GitHub at https://github.com/iamroidev.
 
 Do you have 10 minutes next week for a brief conversation?
 
@@ -73,18 +74,39 @@ Richard Kwaku Opoku
 
 ---
 
-## 3. Polite Follow-Up Email (Send 5–7 days after sending initial application)
+## 3. Cold Outreach for Software & Full-Stack Developer Roles (Where applicable)
 
 ```email
-Subject: Following up: Full-Stack Developer Application — Richard Kwaku Opoku
+Subject: Full-Stack / Cloud Software Engineer — Richard Kwaku Opoku (UMaT CS Grad)
+
+Hi [Name / Tech Lead],
+
+I've been following [Company Name]’s engineering work and wanted to reach out regarding developer or NSS opportunities on your team.
+
+I am a final-year Computer Science & Engineering student at UMaT specializing in React, Node.js/Express, PostgreSQL, and AWS deployment. I build resilient production tools including VoteEQ (https://voteeq.online) and Scholar (https://schorla.vercel.app), and led the AmaliTech Coding Club mentoring 100+ students.
+
+My CV is attached. You can view my portfolio at https://richardkwakuopoku.site and code at https://github.com/iamroidev.
+
+Best regards,
+
+Richard Kwaku Opoku
++233 55 150 0736 | richardkwakuopoku06@gmail.com
+```
+
+---
+
+## 4. Polite Follow-Up Email (Send 5–7 days after application)
+
+```email
+Subject: Following up: [Role Title] Application — Richard Kwaku Opoku
 
 Hi [Hiring Team / Name],
 
 I hope you’re having a great week.
 
-I am following up on the application I submitted last week for the [Job Title / NSS Placement] role at [Company Name]. 
+I am following up on the application I submitted last week for the [Cybersecurity / Cloud / Developer / NSS Placement] role at [Company Name]. 
 
-I remain very interested in the opportunity to contribute to your engineering and tech team. If you need any additional code samples, transcript attestations, or project walk-throughs, please let me know.
+I remain very interested in the opportunity to contribute to your engineering and security team. If you need any additional code samples, transcript attestations, or project walk-throughs, please let me know.
 
 Thank you again for your time and consideration.
 
