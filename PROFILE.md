@@ -71,11 +71,11 @@ Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class st
 - **Stack:** React, TypeScript, Supabase.
 - **Core Features:** Converts books and documents into structured learning paths via RAG pipelines, generating guided text summaries and synthesized audio streams.
 
-### **KaiRova** | [kai-rova.vercel.app](https://kai-rova.vercel.app/)
+### **KaiRova** | [kairovaclothing.com](https://kairovaclothing.com/)
 *Premium Streetwear E-commerce Showcase*
 - **Role:** Full-Stack Developer  
 - **Stack:** Next.js 15 (App Router), TypeScript, Tailwind CSS, Framer Motion.
-- **Core Features:** Premium clothing catalog display with dynamic item category filters, interactive lookbooks, product detail galleries, size selectors, and modular contact forms. Designed as a brand e-commerce showcase for a friend's streetwear brand.
+- **Core Features:** Premium clothing catalog display with dynamic item category filters, interactive lookbooks, product detail galleries, size selectors, and modular contact forms. Designed as a brand e-commerce showcase for a streetwear brand.
 
 ### **AWS re/Start Graduate Hackathon Project**
 *AI Hospital Queue Management App*

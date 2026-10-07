@@ -167,18 +167,10 @@ def build() -> Path:
     )
     pdf.entry(
         "KaiRova - streetwear e-commerce showcase",
-        "kai-rova.vercel.app",
+        "kairovaclothing.com",
         bullets=[
-            "Built a premium clothing catalog and brand experience showcase for a friend's streetwear brand.",
+            "Built a premium clothing catalog and brand experience showcase for a streetwear brand.",
             "Implemented category catalog filters, interactive detail galleries, size selector drawers, and dynamic user query forms. Built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.",
-        ],
-    )
-    pdf.entry(
-        "AWS re/Start Graduate Hackathon - AI medical queue application",
-        "Team Hackathon Project",
-        bullets=[
-            "Collaborated in a team during the AmaliTech hackathon to design and build a hospital queue management system.",
-            "Implemented user authentication and access control using AWS Cognito, serverless endpoints via Lambda + API Gateway, DynamoDB database, and AWS Amplify frontend hosting.",
         ],
     )
     pdf.entry(

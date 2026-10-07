@@ -371,7 +371,7 @@ def build():
         proj_table,
         "2026",
         "KAIROVA – STREETWEAR E-COMMERCE SHOWCASE",
-        "Full-Stack Developer  |  kai-rova.vercel.app",
+        "Full-Stack Developer  |  kairovaclothing.com",
         bullets=[
             "Built a premium clothing catalog with category filters, interactive galleries, and size "
             "selector drawers using Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.",

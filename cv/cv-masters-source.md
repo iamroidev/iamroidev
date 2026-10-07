@@ -47,7 +47,7 @@ Kumasi Academy, Kumasi, Ghana | 2019–2022
 - Converts books and documents into structured learning paths via RAG pipelines, generating guided text summaries and synthesized audio streams.
 - Built with React, Vite, TypeScript, and Supabase.
 
-**KaiRova** — streetwear e-commerce showcase | [kai-rova.vercel.app](https://kai-rova.vercel.app/)  
+**KaiRova** — streetwear e-commerce showcase | [kairovaclothing.com](https://kairovaclothing.com/)  
 - Built a premium clothing catalog and brand experience showcase for a friend's streetwear brand.
 - Implemented category catalog filters, interactive detail galleries, size selector drawers, and dynamic user query forms. Built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
 

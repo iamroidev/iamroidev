@@ -23,7 +23,7 @@ This checklist details every essential document needed for graduate school appli
 
 - [ ] **Coursework & Industry-Focused Tech CV (PDF)**
   - Use your newly compiled standard CV: `cv/Richard_Kwaku_Opoku_CV.pdf` or generate an EU/Europass formatted version if applying to European universities (Germany/Sweden).
-  - Ensure all live links ([voteeq.online](https://voteeq.online), [schorla.vercel.app](https://schorla.vercel.app), [kai-rova.vercel.app](https://kai-rova.vercel.app), [GitHub](https://github.com/iamroidev), [LinkedIn](https://linkedin.com/in/richardkwakuopoku982)) are active and clickable.
+  - Ensure all live links ([voteeq.online](https://voteeq.online), [schorla.vercel.app](https://schorla.vercel.app), [kairovaclothing.com](https://kairovaclothing.com), [GitHub](https://github.com/iamroidev), [LinkedIn](https://linkedin.com/in/richardkwakuopoku982)) are active and clickable.
 - [ ] **Online Portfolio Website**
   - Primary live site: [richardkwakuopoku.site](https://www.richardkwakuopoku.site/) (Backup: [iamroidev.vercel.app](https://iamroidev.vercel.app)).
 
