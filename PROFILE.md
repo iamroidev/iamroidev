@@ -59,6 +59,12 @@ Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class st
 - **Hosting:** Frontend on Vercel, API on AWS EC2 (Elastic IP, Certbot SSL).
 - **Core Features:** Paid nominee voting with Paystack transaction verification, real-time leaderboard broadcast using WebSockets, ticket generation, nominee management portal. Used officially for the UMaT ACSES Awards.
 
+### **ComplianceIQ** *(Work in Progress)*
+*Continuous Automated Compliance & Cryptographic Audit Platform*
+- **Role:** Security Architect & Full-Stack Engineer
+- **Stack:** Next.js 15 (App Router), TypeScript, Tailwind CSS, SHA-256 Cryptographic Hash Engine, Supabase / In-Memory Registers, Vitest, Playwright.
+- **Core Features:** Deterministic rule engine monitoring streaming events and scheduled state registers (ISO 27001, SOC 2, HIPAA, IAM least privilege). Client-side zero-dependency SHA-256 hash-chained audit ledger with tamper detection, bi-directional auto-resolution, and citation-guarded AI policy coverage gap analysis.
+
 ### **Scholar** | [schorla.vercel.app](https://schorla.vercel.app)
 *AI Scholarship Matching Engine*
 - **Role:** Full-Stack Developer  

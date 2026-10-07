@@ -21,6 +21,7 @@ const slideTitles = [
     'Experience',
     'Case studies',
     'VoteEQ',
+    'ComplianceIQ',
     'Scholar',
     'InsightFlow',
     'KaiRova',
@@ -71,25 +72,31 @@ const themes = [
         title: 'rgba(245, 235, 220, 0.03)'
     },
     {
-        // 7: Scholar
+        // 7: ComplianceIQ (WIP)
+        bg: 'radial-gradient(900px 520px at 30% 15%, rgba(245, 158, 11, 0.12), rgba(13, 13, 13, 0.96))',
+        glow: 'rgba(245, 158, 11, 0.2)',
+        title: 'rgba(254, 243, 199, 0.03)'
+    },
+    {
+        // 8: Scholar
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(72, 160, 255, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(72, 160, 255, 0.2)',
         title: 'rgba(230, 240, 255, 0.03)'
     },
     {
-        // 8: InsightFlow
+        // 9: InsightFlow
         bg: 'radial-gradient(900px 520px at 80% 10%, rgba(62, 195, 169, 0.12), rgba(13, 13, 13, 0.96))',
         glow: 'rgba(62, 195, 169, 0.2)',
         title: 'rgba(220, 248, 240, 0.03)'
     },
     {
-        // 9: KaiRova
+        // 10: KaiRova
         bg: 'radial-gradient(900px 520px at 20% 15%, rgba(130, 130, 130, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(130, 130, 130, 0.2)',
         title: 'rgba(230, 230, 230, 0.03)'
     },
     {
-        // 10: Contact
+        // 11: Contact
         bg: 'radial-gradient(900px 520px at 80% 15%, rgba(90, 90, 90, 0.12), rgba(13, 13, 13, 0.98))',
         glow: 'rgba(90, 90, 90, 0.2)',
         title: 'rgba(220, 220, 220, 0.03)'

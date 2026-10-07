@@ -37,7 +37,7 @@ AWS labs, AmaliTech re/Start, cryptography coursework, One Million Coders on Cou
 
 ## Projects
 
-*   [VoteEQ](https://voteeq.online) · [Scholar](https://schorla.vercel.app) · [InsightFlow](https://appinsightflow.vercel.app) · [KaiRova](https://kairovaclothing.com/)
+*   [VoteEQ](https://voteeq.online) · [ComplianceIQ](https://github.com/iamroidev) *(WIP)* · [Scholar](https://schorla.vercel.app) · [InsightFlow](https://appinsightflow.vercel.app) · [KaiRova](https://kairovaclothing.com/)
 
 ---
 

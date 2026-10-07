@@ -39,6 +39,10 @@ Kumasi Academy, Kumasi, Ghana | 2019–2022
 - Built and deployed a paid nominee voting and event ticketing platform used officially by the UMaT Association of Computer Science and Engineering Students.
 - Features Paystack hosted checkout, real-time leaderboard updates via WebSockets, libSQL database, nominee dashboards, and admin tooling. Frontend deployed on Vercel, API hosted on AWS EC2.
 
+**ComplianceIQ** — continuous compliance & cryptographic audit platform *(Work in Progress)*  
+- Engineered a deterministic compliance monitoring platform evaluating streaming events and state registers against ISO 27001, SOC 2, and HIPAA.
+- Implemented client-side verifiable SHA-256 hash-chained audit ledgers with tamper-evidence verification and citation-guarded AI policy coverage analysis. Built with Next.js 15, TypeScript, Tailwind CSS, Vitest, and Playwright.
+
 **Scholar** — scholarship matching engine | [schorla.vercel.app](https://schorla.vercel.app)  
 - Implements NLP document parsing for CVs, transcripts, and SOPs; executes semantic matching algorithms to align profiles with verified funding opportunities.
 - Built with Next.js, LlamaCloud, Supabase, and Stripe billing.
