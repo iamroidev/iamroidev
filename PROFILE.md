@@ -96,7 +96,7 @@ Year 4 Computer Science & Engineering student at UMaT (80.87 CWA, First Class st
 1. **AWS Certified Cloud Practitioner (CCP)** — Amazon Web Services | Verified via Credly
 2. **Certified in Cybersecurity (CC)** — ISC2 | Verified Certificate
 3. **Machine Learning Specialization** — Stanford University & DeepLearning.AI | Verified via Coursera
-4. **Google Cybersecurity Professional Certificate** — Google | 4 of 8 Courses Completed
+4. **Google Cybersecurity Professional Certificate** — Google | [Verified via Coursera](https://coursera.org/share/ef28f11aab2dbe640c48f147f9a6673b)
 5. **One Million Coders Member — Cybersecurity Pathway** — Coursera & One Million Coders | Active
 
 ---
